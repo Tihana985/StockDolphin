@@ -12,6 +12,7 @@ export const RecentActivity = () => {
     return (
         <div>
             <h3>Recent Activity</h3>
+            
             <div>
                 { activityItems.map((item, index) => {
                     return <div key={index} dangerouslySetInnerHTML={{ __html: item }} /> //dangerously za da moze da gi renderira HTML tagovi vnatre vo text
