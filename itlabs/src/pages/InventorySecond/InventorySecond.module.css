@@ -1,0 +1,642 @@
+.inventorysecond {
+    /* width: 100%;
+    height: 741px;
+    background: #EAEAEA;
+    position: fixed;
+    height: 100%; */
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    background: #EAEAEA;
+    padding-left: 350px;
+
+}
+
+.headerinventory {
+    width:68vw;
+    height: 12%;
+    margin-left: 3%;
+    font-size: 0,2vw;
+    border-bottom: 1px solid #3E4153;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.textinventoryos {
+    color: #3E4153;
+    position: absolute;
+    top: -3%;
+    left: 30%;
+
+}
+
+
+.inputsearchcontainers {
+    position: absolute;
+    background-color: #D9D9D9;
+    display: flex;
+    top: 10%;
+    left: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.searchicon {
+    background-color: #D9D9D9;
+    margin-right: 8px;
+}
+
+.insidesearch {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+/* Kopce add category  */
+.buttonaddcategory {
+    background: #53A856;
+    border: 1px solid black;
+    position: absolute;
+    top: 8%;
+    right: 35px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 150px;
+    height: 30px;
+}
+
+.imageaddcategory {
+    position: absolute;
+
+}
+
+.addcategory {
+    position: absolute;
+    padding: 10px;
+    background-color: #53A856;
+    height: 20%;
+    width: 78%;
+    right: 1%;
+    font-size: -5px;
+    bottom: 10px;
+    border: none;
+
+}
+
+.text {
+    position: absolute;
+    right: 10%;
+    color: white;
+    top: 20%;
+    font-size: 12px;
+
+}
+
+/* Vtor del  */
+
+.fourparagraphs {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    top: 17%;
+    left: 30%;
+    justify-content: flex-start;
+
+}
+
+.catgoriesnumber {
+    /* background-color: pink; */
+    /* position: absolute; */
+    justify-content: flex-start;
+    text-align: left;
+    padding-right: 30px;
+    font-size: 15px;
+    color: #3E4153;
+}
+
+.itemsnumber {
+    text-align: left;
+    padding-right: 30px;
+    font-size: 15px;
+    color: #3E4153;
+}
+
+
+.ordersnumber {
+    /* background-color: red; */
+    text-align: left;
+    padding-right: 30px;
+    font-size: 15px;
+    color: #3E4153;
+}
+
+
+
+.totalcostnumber {
+    /* background-color: purple; */
+    text-align: left;
+    padding-right: 30px;
+    font-size: 15px;
+    color: #3E4153;
+}
+
+/* Dve kopcinja od strana */
+
+.controlpanel1 {
+    position: absolute;
+    right: -4%;
+    top: 17%;
+    width: 15%;
+}
+
+.imgcontrolpanel1 {
+
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.buttoncontrolpanel1 {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 20%;
+    height: 30px;
+    top: 30%;
+    right: -4%;
+
+}
+
+/* Vtoro kopce */
+.list1 {
+    position: absolute;
+    right: -2%;
+    top: 23%;
+    width: 13%;
+}
+
+.imglist1 {
+
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.buttonlis1t {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 20%;
+    height: 30px;
+    top: 30%;
+    right: -4%;
+}
+
+/* Tret del karticki */
+
+
+.inventorysecondcards {
+    /* background-color: rgb(0, 153, 255); */
+    display: flex;
+    flex-direction:column;
+    width: 45%;
+    height: 63%;
+    margin-left: 445px;
+    margin-top: 150px;
+    justify-content: space-between;
+    
+}
+
+.firstinventorycard {
+    background-color: white;
+    width:100%;
+    height: 25%;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px rgb(148, 142, 142);
+}
+
+.threeimgbox {
+    position: relative;
+    width:20%;
+    
+    /* width: 100px; */
+ 
+}
+
+.img1 {
+ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 0%;
+    
+
+}
+
+.imginside1 {
+    width: 67%;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 7px;
+    
+   
+}
+
+.img2 {
+    position: absolute;
+    display: flex;
+    margin-top: -80%;
+    left: 65%;
+    width: 50%;
+    height: 100%;
+    height: auto;
+}
+
+.imginside2 {
+    width: 77px;
+    height: 52px;
+    
+}
+
+.img3 {
+    position: absolute;
+    display: flex;
+  top: 48%;
+  left: 65%;
+  width: 50%;
+  height: 50%;
+
+}
+
+.imginside3 {
+    width: 77px;
+    height: 56px;
+  
+}
+
+
+.secondpart{
+    /* background-color: green; */
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    border-right: 1px solid black ;
+    
+}
+
+.officesupply {
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    top:30%;
+    left:42%;
+    font-size: 20px;
+    
+   
+}
+
+.items3 {
+    padding-left: 18%;
+    padding-bottom: 36px;
+    font-size: 12px;
+    
+}
+
+.thirdpart{
+    /* background-color: aqua; */
+    width: 30%;
+}
+
+.updateofficesupply {
+   
+    width: 70%;
+    height: 40%;
+    padding-left: 15%;
+    /* background-color: yellow; */
+    padding-top: 10%;
+    color:#333544;
+}
+
+.imgft {
+    width:20%;
+    height: 50%;
+    margin-left: 75%;
+    size:10px;
+   
+}
+
+.imgfoldertrash {
+    
+
+}
+
+
+/* Vtora kocka*/
+.secondinventorybox {
+   background-color: white;
+    width:100%;
+    height: 25%;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px rgb(148, 142, 142);
+}
+
+.threeimgboxsecond {
+    position: relative;
+    width:20%;
+}
+
+.img1second {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 0%;
+}
+
+.imginside1second {
+    width: 67%;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 7px;
+    
+}
+
+.img2second {
+    position: absolute;
+    display: flex;
+    margin-top: -80%;
+    left: 65%;
+    width: 50%;
+    height: 100%;
+    height: auto;
+}
+
+.imginside2second {
+    width: 77px;
+    height: 54px;
+}
+
+.img3second {
+    position: absolute;
+    display: flex;
+  top: 49%;
+  left: 65%;
+  width: 30%;
+  height: 51%;
+}
+
+.imginside3second {
+    width: 77px;
+    height: 100%;
+   border-bottom-right-radius: 5px; 
+}
+
+.secondpart1{
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    border-right: 1px solid black; 
+}
+
+.kitchensupply {
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    top:46%;
+    left:42%;
+    font-size: 20px;
+}
+
+.items3second {
+    padding-left: 18%;
+    padding-bottom: 36px;
+    font-size: 12px;
+}
+.thirdpart1{
+    width: 30%;
+}
+
+.updatekitchensupply {
+    width: 70%;
+    height: 40%;
+    padding-left: 15%;
+    /* background-color: yellow; */
+    padding-top: 10%;
+    color:#333544;
+}
+
+.imgftsecond {
+    width:20%;
+    height: 50%;
+    margin-left: 75%;
+    size:10px;
+}
+
+.imgfoldertrashsecond {}
+
+
+
+
+/* Treta kocka */
+.thirdinventorybox {
+  background-color: white;
+    width:100%;
+    height: 25%;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px rgb(148, 142, 142);
+}
+
+.threeimgboxthird {
+    position: relative;
+    width:20%;
+}
+
+.img1third {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 0%;
+}
+
+.imginside1third {
+    width: 67%;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 7px;
+    
+}
+
+.img2third {
+    position: absolute;
+    display: flex;
+    margin-top: -80%;
+    left: 65%;
+    width: 50%;
+    height: 100%;
+    height: auto;
+}
+
+.imginside2third {
+    width: 77px;
+    height: 109px;
+}
+.secondpart2{
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    border-right: 1px solid black ;
+}
+
+.sanitarysupply {
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    top:62%;
+    left:42%;
+    font-size: 20px;
+}
+
+.items3third {
+    padding-left: 18%;
+    padding-bottom: 36px;
+    font-size: 12px;
+}
+
+.thirdpart2{
+    width: 30%;
+}
+
+.updatesanitarysupply {
+    width: 70%;
+    height: 40%;
+    padding-left: 15%;
+    /* background-color: yellow; */
+    padding-top: 10%;
+    color:#333544;
+}
+
+.imgfthird {
+    width:20%;
+    height: 50%;
+    margin-left: 75%;
+    size:10px;
+}
+
+.imgfoldertrashthird {}
+
+
+/* cetvrta */
+.fourthtinventorybox {
+    background-color: white;
+    width:100%;
+    height: 25%;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px rgb(148, 142, 142);
+}
+
+.threeimgboxfourth {
+    position: relative;
+    width:20%;
+}
+
+.img1fourth {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 0%;
+}
+
+.imginside1fourth {
+    width: 67%;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 7px;
+    
+}
+
+.img2fourth {
+    position: absolute;
+    display: flex;
+    margin-top: -80%;
+    left: 65%;
+    width: 50%;
+    height: 100%;
+    height: auto;
+}
+
+.imginside2fourth {
+    width: 77px;
+    height: 52px;
+}
+
+.img3fourth {
+    position: absolute;
+    display: flex;
+  top: 48%;
+  left: 65%;
+  width: 50%;
+  height: 50%;
+}
+
+.imginside3fourth {
+    width: 77px;
+    height: 56px;
+}
+
+
+.secondpart3{
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+    border-right: 1px solid black ;
+}
+.officesupplyfourth {
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    top:78%;
+    left:42%;
+    font-size: 20px;
+}
+
+.items3fourth {
+    padding-left: 18%;
+    padding-bottom: 36px;
+    font-size: 12px;
+}
+
+.thirdpart3{
+    width: 30%;
+}
+
+.updateofficesupplyfourth {
+  
+    width: 70%;
+    height: 40%;
+    padding-left: 15%;
+    /* background-color: yellow; */
+    padding-top: 10%;
+    color:#333544;
+}
+
+.imgftfourth {
+    width:20%;
+    height: 50%;
+    margin-left: 75%;
+    size:10px;
+}
+
+.imgfoldertrashfourth {}

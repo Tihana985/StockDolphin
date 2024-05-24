@@ -1,0 +1,22 @@
+.navLink{
+    position: relative;
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+    height: 48px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 4.5rem;
+    line-height: 1.8rem;
+}
+
+.navLink img{
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    bottom: 0;
+    margin: auto;
+}

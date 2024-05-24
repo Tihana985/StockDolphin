@@ -1,0 +1,191 @@
+.inventorysummary {
+    /* background: #EAEAEA;
+    position: absolute;
+    width: 1100px;
+    left: 383px;
+    height: 100%; */
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    background: #EAEAEA;
+    padding-left: 350px;
+}
+
+.headeris {
+    width:68vw;
+    height: 12%;
+    margin-left: 3%;
+    font-size: 0,2vw;
+    border-bottom: 1px solid #3E4153;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.imgarrow {
+    /* background-color: green; */
+    /* position: absolute; */
+    /* top: 30%;
+    left: 23%;
+    width: 17px;
+    height: 17px; */
+
+}
+
+.textis2 {
+    position: absolute;
+    top: -88%;
+    left: 28%;
+}
+
+/* 4 kopcinja */
+
+
+.fourbtn {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 13%;
+    /* background-color: blue; */
+    left: 5%;
+
+
+}
+
+.firstbtn {
+    position: absolute;
+    border-radius: 140px;
+    color: #999999;
+    left: -90px;
+    width: 21%;
+    height: 10%;
+}
+
+.dateform {
+    position: absolute;
+    border-radius: 9px;
+    background-color: #D9D9D9;
+    width: 100%;
+    border: 2px solid rgb(178, 163, 163);
+
+}
+
+.p1 {
+    position: absolute;
+    left: 30%;
+    top: -35%;
+    font-size: 20px;
+    color: #3E4153;
+
+}
+
+.calendar {
+    margin-left: -140px;
+
+}
+
+.secondtbtn {
+    position: absolute;
+    border-radius: 140px;
+    color: #999999;
+    left: 140px;
+    width: 21%;
+    height: 10%;
+}
+
+.dateto {
+    position: absolute;
+    border-radius: 9px;
+    background-color: #D9D9D9;
+    width: 100%;
+    border: 2px solid rgb(178, 163, 163);
+}
+
+.p2 {
+    position: absolute;
+    left: 30%;
+    top: -35%;
+    font-size: 20px;
+    color: #3E4153;
+}
+
+.calendar2 {
+    margin-left: -140px;
+}
+
+.thirdbtn {
+    position: absolute;
+    border-radius: 140px;
+    color: #999999;
+    left: 365px;
+    width: 21%;
+    height: 10%;
+
+
+
+}
+
+.allcategories {
+    position: absolute;
+    border-radius: 9px;
+    background-color: #D9D9D9;
+    width: 100%;
+    border: 2px solid rgb(178, 163, 163);
+
+}
+
+.p3 {
+    position: absolute;
+    left: 25%;
+    top: -38%;
+    font-size: 20px;
+    color: #3E4153;
+}
+
+.calendar3 {
+    margin-left: -140px;
+
+}
+
+
+.fourthbtn {
+    position: absolute;
+    border-radius: 140px;
+    color: #999999;
+    left: 595px;
+    width: 21%;
+    height: 52%;
+    border-color: #999999;
+}
+
+.show {
+    position: absolute;
+    border-radius: 9px;
+    background-color: #53A856;
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #999999;
+    text-align: center;
+}
+
+/* Gragikon */
+
+.linechart {
+    position: absolute;
+    width: 1005px;
+    height: 60%;
+    left: 5%;
+    top: 30%;
+}
+
+.imglinechart {
+
+    width: 100%;
+    height: 100%;
+
+}

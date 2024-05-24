@@ -1,0 +1,30 @@
+.summaryRow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.summaryBox{
+    padding: 2rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.399);
+    width: calc(25% - 2rem);
+    flex: 0 0 calc(25% - 2rem);
+    text-align: center;
+}
+
+.iconBox{
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.summaryNumber{
+    font-weight: bold;
+}

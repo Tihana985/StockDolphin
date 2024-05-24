@@ -1,0 +1,1492 @@
+.suppliers {
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  background: #EAEAEA;
+  padding-left: 350px;
+}
+
+.header {
+  width:68vw;
+  height: 12%;
+  margin-left: 3%;
+  font-size: 0,2vw;
+  border-bottom: 1px solid #3E4153;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* Search */
+
+
+.inputsearchcontainersuppliers {
+
+  position: absolute;
+  background-color: #D9D9D9;
+  display: flex;
+  top: 15%;
+  left: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+.searchiconsuppliers {
+  background-color: #D9D9D9;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.insidesearchsuppliers {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Kopce add supplier */
+
+.buttonaddsuppliers {
+  background: #53A856;
+  border: 1px solid black;
+  position: absolute;
+  top: 15%;
+  right: 4%;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  height: 30px;
+}
+
+.imageaddsuppliers {
+  position: absolute;
+}
+
+.addsuppliers {
+  position: absolute;
+  padding: 10px;
+  background-color: #53A856;
+  height: 20%;
+  width: 78%;
+  right: 1%;
+  font-size: -5px;
+  bottom: 10px;
+  border: none;
+
+}
+
+.texts {
+  position: absolute;
+  right: 20%;
+  color: white;
+  top: 15%;
+  font-size: 12px;
+}
+
+/* Tret del - kocki */
+
+/* Prva kocka */
+
+.suppliersboxes {
+  background-color: white;
+  position: absolute;
+  width: 91%;
+  height: 73%;
+  left: 5%;
+  top: 23%;
+  border-radius: 6px;
+
+
+}
+
+.firstfourboxessuppliers {
+  /* background-color: blue; */
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  border-radius: 6px;
+  width: 96%;
+  height: 42%;
+
+
+}
+
+
+.firstsupplierbox {
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.anhoch {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+.textanhoch {
+  position: absolute;
+  left: 27%;
+  font-size: 28px;
+  top: 20%;
+}
+
+.anhochaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+  /* border: 1px solid black; */
+}
+
+.adressan1 {
+  position: absolute;
+
+  left: 2%;
+  font-size: 18px;
+  top: 5%;
+}
+
+.adressan2 {
+  position: absolute;
+  color: #3E4153;
+  top: 13%;
+  font-size: 15px;
+  left: 55%;
+
+}
+
+.hr56 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.anhochphonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+
+
+}
+
+
+.pnumbertext {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumbernumber {
+
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  left: 46%;
+
+}
+
+.hr57 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.anhochemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+  /* border: 1px solid black; */
+}
+
+.anhochemailtext {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+
+}
+
+.anhochemailemail {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+
+}
+
+.hr58 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bootomimiges {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+
+  border-radius: 5px;
+
+
+}
+
+.imgftpencil {
+
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+
+}
+
+.editpencil {
+  position: absolute;
+  top: 8%;
+  width: 30px;
+  left: 15%;
+}
+
+.imgft {
+
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+
+}
+
+.imgfoldertrash {}
+
+/* Vtora kocka */
+.secondsupplierbox {
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 27%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.setec {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.textsetec {
+  position: absolute;
+  left: 27%;
+  font-size: 28px;
+  top: 20%;
+}
+
+.setecaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+  /* border-bottom: 1px solid black; */
+}
+
+.hr {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.adresssetec1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: 5%;
+}
+
+.adressset2 {
+  position: absolute;
+  color: #3E4153;
+  top: 13%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.setecphonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid black; */
+}
+
+.pnumbersetec {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+
+}
+
+.pnumbersetec2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr2 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.setecemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+}
+
+.setectext {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+}
+
+.setecemailemail {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+}
+
+.hr3 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bootomimigessetec {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+
+  border-radius: 5px;
+}
+
+.imgftsetec {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.edit {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+}
+
+.imgfoldertrash {}
+
+
+
+
+
+
+/* Treta kocka */
+
+.thirdsupplierbox {
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 53%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.neptun {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.textneptun {
+  position: absolute;
+  left: 27%;
+  font-size: 28px;
+  top: 20%;
+}
+
+.neptunaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+
+}
+
+.adressneptun1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: 5%;
+}
+
+.adressneptun2 {
+  position: absolute;
+  color: #3E4153;
+  top: 13%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.hr4 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.neptunphonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumberneptun {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumberneptun1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumberneptun2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr5 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.neptunemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+}
+
+.neptuntext {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+}
+
+.neptuntext2 {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+}
+
+.hr6 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bootomimigesneptun {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+
+  border-radius: 5px;
+}
+
+.imgftneptun {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.editneptun {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%
+}
+
+.imgfoldertrash {}
+
+/* Crtvta kocka */
+
+
+.fourthsupplierbox {
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.magroni {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  
+  border: 1px solid black;
+
+}
+
+.textmagroni {
+  position: absolute;
+  left: 27%;
+  font-size: 28px;
+  top: 20%;
+}
+
+.magroniddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+}
+
+.adressmagroni1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: 5%;
+}
+
+.adressmagroni2 {
+  position: absolute;
+  color: #3E4153;
+  top: 13%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.hr7 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+
+.magroniphonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumbermagroni1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumbermagroni2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr8 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.magroniemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+}
+
+.texteemailmagroni {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+}
+
+.texteemailmagroni2 {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+}
+
+.hr9 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bootomimigesmagroni {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.imgftmagroni {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.editmagroni {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%
+}
+
+.imgfoldertrash {}
+
+/* Najdolni kocki */
+
+.secondfourboxessuppliers {
+  /* background-color: blue; */
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  border-radius: 6px;
+  width: 96%;
+  height: 42%;
+
+}
+
+/* Petta kocka */
+.fifthsupplierbox {
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+
+
+}
+
+.amazon {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  
+  border: 1px solid black;
+}
+
+.textamazon {
+  position: absolute;
+  left: 27%;
+  font-size: 28px;
+  top: 20%;
+}
+
+.amazonaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+}
+
+.adressamazon1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: 5%;
+}
+
+.adressamazon2 {
+  position: absolute;
+  color: #3E4153;
+  top: 13%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.hr10 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+
+
+.amazonphonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumberamazon {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumberamazon2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr11 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.amzonemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+  background-color: red;
+}
+
+.emailtextamazon {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: 55%;
+  width: 50%;
+  text-align: left;
+}
+
+.emailtextamazon2 {
+  position: absolute;
+  color: #3E4153;
+  top: 59%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+}
+
+.hr12 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  top: -25%;
+  /* color:#000000; */
+
+  border-bottom: 1px solid black;
+}
+
+.bootomimigesamazon {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.imgftamzon {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.editamzon {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%
+}
+
+.imgfoldertrash {}
+
+/* 6 kocka */
+.sixthsupplierbox {
+  height: auto;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 27%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.apple {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  
+  border: 1px solid black;
+}
+
+.appletext {
+  position: absolute;
+  left: 27%;
+  font-size: 28px;
+  top: -30%;
+}
+
+.appleaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+}
+
+.appletextadress1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -40%;
+}
+
+.appletextadress2 {
+  position: absolute;
+  color: #3E4153;
+  top: -30%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.hr13 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.applephonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumberapple1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumberapple2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr14 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+
+}
+
+.appleemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+}
+
+.emailtexapple {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+}
+
+.emailtexapple1 {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+}
+
+.hr15 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bootomimigesapple {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.imgftapple {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.edit {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%
+}
+
+.imgfoldertrash {}
+
+/* 7 kocka */
+
+.seventhsupplierbox {
+
+  height: auto;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 53%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.pope {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  
+  border: 1px solid black;
+}
+
+.popetext {
+  position: absolute;
+  left: 29%;
+  font-size: 28px;
+  top: -30%;
+}
+
+.popeaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+}
+
+.popetextadress1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -40%
+}
+
+.popetextadress2 {
+  position: absolute;
+  color: #3E4153;
+  top: -30%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.hr16 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.popephonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumberpope1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumberpope2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr17 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.popeemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+}
+
+.emailtexpope1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+}
+
+.emailtexpope2 {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+}
+
+.hr18 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bottomimagespope {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.imgftpope {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.editpope {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%
+}
+
+.imgfoldertrash {}
+
+/* 8 kocka */
+.eightthsupplierbox {
+
+  height: auto;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px darkgrey;
+}
+
+.cgroup {
+  background-color: #53A856;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  border-radius: 6px;
+  text-align: center;
+  
+  border: 1px solid black;
+}
+
+.cgtext {
+  position: absolute;
+  left: 17%;
+  font-size: 28px;
+  top: -30%;
+}
+
+.cgroupaddress {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 15%;
+}
+
+.cgextadress1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -40%
+}
+
+.cgextadress2 {
+  position: absolute;
+  color: #3E4153;
+  top: -30%;
+  font-size: 15px;
+  left: 55%;
+}
+
+.hr19 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.cgroupphonenumber {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+}
+
+.pnumbercgroup1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -43%;
+  width: 50%;
+  text-align: left;
+}
+
+.pnumbercgroup2 {
+  position: absolute;
+  color: #3E4153;
+  top: 0%;
+  font-size: 15px;
+  width: 50%;
+  left: 46%;
+}
+
+.hr20 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.cgroupemail {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 15%;
+}
+
+.emailtextcg1 {
+  position: absolute;
+  left: 2%;
+  font-size: 18px;
+  top: -30%;
+  width: 50%;
+  text-align: left;
+}
+
+.emailtextcg2 {
+  position: absolute;
+  color: #3E4153;
+  top: -9%;
+  font-size: 15px;
+  left: 32%;
+  font-size: 13px;
+
+}
+
+.hr21 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.bootomimagescitygroup {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.imgftcgroup {
+  position: absolute;
+  top: 19%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+}
+
+.editcgroup {
+  position: absolute;
+  top: 10%;
+  width: 26px;
+  left: 18%;
+}
+
+.imgft {
+  position: absolute;
+  right: 2%;
+  bottom: 3%
+}
+
+.imgfoldertrash {}

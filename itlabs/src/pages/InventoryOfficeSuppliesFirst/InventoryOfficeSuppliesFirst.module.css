@@ -1,0 +1,707 @@
+.inventoryOfficeSuppliesFirst {
+
+  /* width: 100%;
+  height: 743px;
+  background: #EAEAEA;
+  position: fixed; */
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  background: #EAEAEA;
+  padding-left: 350px;
+}
+
+.headerinventory {
+  width:68vw;
+  height: 12%;
+  margin-left: 3%;
+  font-size: 0,2vw;
+  border-bottom: 1px solid #3E4153;
+  display: flex;
+  justify-content: space-between;
+  
+ 
+ 
+}
+
+
+
+
+.inputsearchcontainer {
+  position: absolute;
+  background-color: #D9D9D9;
+  display: flex;
+  top: 10%;
+  left: 35%;
+  border: 1px solid black;
+  border-radius: 5px;
+
+
+}
+
+.searchicon {
+  background-color: #D9D9D9;
+  margin-right: 8px;
+}
+
+
+
+.insidesearch {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* Kopce add item */
+.buttonadditem {
+  background: #53A856;
+  border: 1px solid black;
+  position: absolute;
+  top: 8%;
+  right: 2%;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  height: 30px;
+}
+
+.imageadditem {
+  position: absolute;
+
+
+
+}
+
+.additem {
+  position: absolute;
+  padding: 10px;
+  background-color: #53A856;
+  height: 20%;
+  width: 78%;
+  right: 1%;
+  bottom: 10px;
+  border: none;
+}
+
+.text {
+  position: absolute;
+  right: 38%;
+  color: white;
+  top: 20%;
+  font-size: 12px;
+
+
+}
+
+/* Dve kopcinja od strana */
+
+.controlpanel {
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  width: 15%;
+
+
+
+}
+
+.imgcontrolpanel {
+  position: absolute;
+  width: 100%;
+  height: auto;
+
+
+}
+
+.buttoncontrolpanel {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  width: 20%;
+  height: 30px;
+  top: 30%;
+  right: 4%;
+
+}
+
+/* Vtoro kopce */
+.list {
+  position: absolute;
+  right: -2%;
+  top: 23%;
+  width: 13%;
+}
+
+.imglist {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.buttonlist {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  width: 20%;
+  height: 30px;
+  top: 30%;
+  right: -4%;
+}
+
+/* Kocki  */
+
+.itemsboxes {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 60%;
+  margin-left: 445px;
+  margin-top: 100px;
+  justify-content: space-between;
+
+}
+
+.firstfourorders {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 45%;
+
+
+}
+
+
+.firstitembox {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  padding-right: 2%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+  border-radius: 5px;
+
+}
+
+.imgbox {
+  width: 20px;
+  height: 100%;
+}
+
+.img1 {
+  width: 20px;
+  height: 100%;
+
+}
+
+.imginside1 {
+  width: 164px;
+  height: 55%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.item1 {
+  position: absolute;
+  top: 37%;
+  font-size: 18px;
+  padding-left: 1%;
+  color: black;
+}
+
+.number1 {
+  position: absolute;
+  font-size: 11px;
+  top: 40%;
+  padding-left: 1%;
+  color: #646464;
+}
+
+.firstitembox .imgfoldertrash {
+  position: absolute;
+  top: 315px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+
+
+.seconditembox {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  margin-left: 2%;
+  padding-left: 2%;
+  border-radius: 5%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+}
+
+.imgbox2 {
+  width: 20px;
+  height: 100%;
+
+}
+
+.img2 {
+  width: 20px;
+  height: 27%;
+  position: absolute;
+  left: 623px;
+
+
+}
+
+.imginside2 {
+  width: 164px;
+  height: 55%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.item2 {
+  position: absolute;
+  top: 37%;
+  font-size: 18px;
+  padding-left: -1%;
+  color: black;
+}
+
+.number2 {
+  position: absolute;
+  font-size: 11px;
+  top: 40%;
+  padding-left: -1%;
+  color: #646464;
+}
+
+.imgft2 {}
+
+.imgfoldertrash2 {
+  position: absolute;
+  top: 315px;
+  padding-left: 2%;
+  width: 32px;
+}
+
+.thirditembox {
+  width: 18%;
+  height: 100%;
+  background-color: white;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-radius: 5%;
+  margin-left: 2%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+}
+
+.threeimgbox3 {
+  position: absolute;
+  left: 54%;
+  width: 162px;
+  height: 15%;
+  border-radius: 5px;
+}
+
+.img31 {
+  position: absolute;
+  width: 50%;
+  height: 67%;
+  left: -26%;
+}
+
+.imginside31 {
+  width: 88px;
+  height: 150%;
+  margin-left: 50%;
+}
+
+.img32 {
+  width: 30%;
+  height: 50%;
+  margin-left: 48%;
+}
+
+.imginside32 {
+  width: 174%;
+  height: 100%;
+}
+
+.img33 {
+  width: 30%;
+  height: 50%;
+  margin-left: 48%;
+}
+
+.imginside33 {
+  width: 174%;
+  height: 100%;
+}
+
+.officesupply3 {
+  position: absolute;
+  top: 37%;
+  font-size: 18px;
+  padding-left: -1%;
+  color: black;
+}
+
+.items33 {
+  position: absolute;
+  font-size: 11px;
+  top: 40%;
+  padding-left: -1%;
+  color: #646464;
+
+}
+
+.imgft3 {}
+
+.imgfoldertrash3 {
+  position: absolute;
+  top: 315px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+.fourthtembox {
+  width: 18%;
+  height: 45%;
+  background-color: white;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-left: -83%;
+  border-radius: 5%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+}
+
+.imgbox4 {
+  width: 110%;
+  height: 100%;
+  margin-left: -54%;
+}
+
+
+.img4 {
+  width: 190%;
+  height: 100%;
+}
+
+.imginside4 {
+  width: 164px;
+  height: 55%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.item4 {
+  position: absolute;
+  top: 37%;
+  font-size: 18px;
+  padding-left: 0%;
+  color: black;
+}
+
+.number4 {
+  position: absolute;
+  font-size: 11px;
+  top: 40%;
+  padding-left: 0%;
+  color: #646464;
+}
+
+.imgft4 {}
+
+.imgfoldertrash4 {
+  position: absolute;
+  top: 315px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+/* Dolen red kocki  */
+.secondfourorders {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 45%;
+  margin-top: 30%;
+  margin-left: -150%;
+  flex-wrap: wrap;
+
+}
+
+.fifthitembox {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  padding-right: 2%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+  border-radius: 5px;
+}
+
+.imgbox5 {
+  width: 20px;
+  height: 100%;
+}
+
+.img5 {
+  width: 20px;
+  height: 100%;
+}
+
+.imginside5 {
+  width: 164px;
+  height: 55%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+
+
+.item5 {
+  position: absolute;
+  top: 67%;
+  font-size: 18px;
+  padding-left: 1%;
+  color: black;
+}
+
+.number51 {
+  position: absolute;
+  font-size: 11px;
+  top: 70%;
+  padding-left: 1%;
+  color: #646464;
+
+}
+
+.imgft5 {}
+
+.imgfoldertrash5 {
+  position: absolute;
+  top: 540px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+.sixthtembox {
+  width: 18%;
+  height: 100%;
+  background-color: white;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-radius: 5%;
+  margin-left: -3%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+}
+
+.threeimgbox6 {
+  position: absolute;
+  left: 627px;
+  width: 162px;
+  height: 15%;
+  border-radius: 5px;
+}
+
+.img6 {
+  position: absolute;
+  width: 50%;
+  height: 67%;
+  left: -26%;
+}
+
+.imginside6 {
+  width: 88px;
+  height: 150%;
+  margin-left: 50%;
+}
+
+.img61 {
+  width: 30%;
+  height: 50%;
+  margin-left: 48%;
+}
+
+.imginside66 {
+  width: 174%;
+  height: 100%;
+}
+
+.img62 {
+  width: 30%;
+  height: 50%;
+  margin-left: 48%;
+}
+
+.imginside666 {
+  width: 174%;
+  height: 100%;
+}
+
+.officesupply6 {
+  position: absolute;
+  top: 67%;
+  font-size: 18px;
+  padding-left: -1%;
+  color: black;
+}
+
+.items6 {
+  position: absolute;
+  font-size: 11px;
+  top: 70%;
+  padding-left: -1%;
+  color: #646464;
+}
+
+.imgft6 {}
+
+.imgfoldertrash6 {
+  position: absolute;
+  top: 540px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+.seventhitembox {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  padding-right: 2%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+  border-radius: 5px;
+  margin-left: -3%;
+}
+
+.imgbox7 {
+  width: 20px;
+  height: 100%;
+}
+
+.img7 {
+  width: 20px;
+  height: 100%;
+}
+
+.imginside7 {
+  width: 164px;
+  height: 55%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.item7 {
+  position: absolute;
+  top: 67%;
+  font-size: 18px;
+  padding-left: 1%;
+  color: black;
+}
+
+.number7 {
+  position: absolute;
+  font-size: 11px;
+  top: 70%;
+  padding-left: 1%;
+  color: #646464;
+}
+
+.imgft7 {}
+
+.imgfoldertrash7 {
+  position: absolute;
+  top: 540px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+.eightitembox {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  padding-right: 2%;
+  box-shadow: 2px 2px rgb(160, 155, 155);
+  border-radius: 5px;
+  margin-left: -3%;
+}
+
+.imgbox8 {
+  width: 20px;
+  height: 100%;
+}
+
+.img8 {
+  width: 20px;
+  height: 100%;
+}
+
+.imginside8 {
+  width: 164px;
+  height: 55%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.item8 {
+  position: absolute;
+  top: 67%;
+  font-size: 18px;
+  padding-left: 1%;
+  color: black;
+}
+
+.number8 {
+  position: absolute;
+  font-size: 11px;
+  top: 70%;
+  padding-left: 1%;
+  color: #646464;
+}
+
+.imgft8 {}
+
+.imgfoldertrash8 {
+  position: absolute;
+  top: 540px;
+  padding-left: 3%;
+  width: 32px;
+}
+
+/* Kopce najdole */
+
+.editcategory {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 11%;
+  height: 6%;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+.butoneditcategory {
+  background: #53A856;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.imgpencil {
+  position: absolute;
+  left: 3%;
+  bottom: 17%;
+  border-radius: 50px;
+  background-color: #5DDB62;
+}
+
+.editcategory span {
+  position: absolute;
+  right: 17%;
+  color: white;
+  top: 30%;
+  font-size: 12px;
+  font-size: 14px;
+}

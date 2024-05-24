@@ -1,0 +1,140 @@
+import styles from "./Login.module.css";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
+function Login() {
+    const initData = {
+        email: "",
+        password: "",
+    };
+
+    const [data, setData] = useState(initData);
+    const [isSubmit, setIsSubmit] = useState(false);
+    const [username, setUsername] = useState("");
+    const [formErrors, setFormErros] = useState({});
+
+    const dataChange = (event) => {
+        setData({
+            ...data,
+            [event.target.name]: event.target.value,
+        });
+    };
+
+    const handleLogin = async (event) => {
+        try {
+            event.preventDefault();
+            setFormErros(validate(data));
+
+            if (Object.keys(formErrors).length === 0) {
+                let response = await fetch("http://localhost:10000/api/auth/login", {
+                    method: "POST",
+                    body: JSON.stringify(data),
+                    headers: {
+                        "Content-type": "application/json",
+                    },
+                });
+
+                let jsonData = await response.json();
+                if (response.ok) {
+                    setIsSubmit(true);
+                    localStorage.setItem("isSubmit", "true");
+                    localStorage.setItem("token", jsonData.token);
+                    localStorage.setItem("username", jsonData.username);
+                }
+            } else {
+                alert("Please fill in all required fields correctly.");
+                event.preventDefault();
+            }
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
+
+
+
+    useEffect(() => {
+        console.log(data);
+        const isSubmit = localStorage.getItem("isSubmit") === "true";
+        const username = localStorage.getItem("username");
+
+        if (username) { setUsername(username); }
+
+        const token = localStorage.getItem("token");
+        if (token) {
+            try {
+                const decoded = jwtDecode(token);
+                setDecodedToken(decoded);
+            } catch (err) {
+                console.log("Failed to decode token", err);
+            }
+        }
+        setIsSubmit(isSubmit);
+    }, [data]);
+
+    const validate = (values) => {
+        const emailRegex = /^[^\s@]+@[^\s@]+[^\s@]{2,}$/i;
+        const errors = {};
+
+        if (!values.email) {
+            errors.email = "E-mail required!";
+        } else if (!emailRegex.test(values.email)) {
+            errors.email = "This email is invalid!";
+        }
+        if (!values.password) {
+            errors.password = "Password is required!";
+        } else if (values.password.length < 8) {
+            errors.password = "Password must be 8 characters or longer!";
+        }
+
+        console.log(errors);
+        return errors;
+    };
+
+    return (
+        <div className={styles.login}>
+            <header className={styles.login-header}>
+                <img id="logo" src={logo} alt="logo" />
+                <span className={styles.signupPart}>
+                    Don't have an account?
+                    <button>
+                        <Link to="/" id="signup-btn">Sign up</Link>
+                    </button>
+                </span>
+            </header>
+            <form className={styles.login-form}>
+                <h1>Welcome back!</h1>
+                {Object.keys(formErrors).length === 0 && isSubmit && (
+                    <Navigate to="/dashboard" />
+                )}
+                <div className={styles.login-email}>
+                    <label htmlFor="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        value={data.email}
+                        onChange={dataChange}
+                        placeholder="Enter your email"
+                    />
+                    <p className={styles.form-errors}>{formErrors.email}</p>
+                </div>
+                <div className={styles.login-password}>
+                    <label htmlFor="password">Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        value={data.password}
+                        onChange={dataChange}
+                        placeholder="Enter password"
+                    />
+                    <p className={styles.formError}>{formErrors.password}</p>
+                </div>
+                <button type="button" onClick={handleLogin}>
+                    Log In
+                </button>
+            </form>
+        </div>
+    );
+}
+
+export default Login;

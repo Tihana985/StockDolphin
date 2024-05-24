@@ -1,0 +1,1046 @@
+.inventory {
+
+  /* width: 100%;
+  height: 743px;
+  background: #EAEAEA;
+
+  position: fixed; */
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  background: #EAEAEA;
+  padding-left: 350px;
+}
+
+
+  .headerinventory{
+    width:68vw;
+    height: 12%;
+    margin-left: 3%;
+    font-size: 0,2vw;
+    border-bottom: 1px solid #3E4153;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+
+
+
+
+.inputsearchcontainer {
+  position: absolute;
+  background-color: #D9D9D9;
+  display: flex;
+  top: 10%;
+  left: 35%;
+  border: 1px solid black;
+  border-radius: 5px;
+
+
+}
+
+.searchicon {
+  background-color: #D9D9D9;
+  margin-right: 8px;
+}
+
+
+
+.insidesearch {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* Kopce add category  */
+.buttonaddcategory {
+  background: #53A856;
+  border: 1px solid black;
+  position: absolute;
+  top: 8%;
+  right: 2%;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  height: 30px;
+}
+
+.imageaddcategory {
+  position: absolute;
+
+
+
+}
+
+.addcategory {
+  position: absolute;
+  padding: 10px;
+  background-color: #53A856;
+  height: 20%;
+  width: 78%;
+  right: 1%;
+  font-size: -5px;
+  bottom: 10px;
+  border: none;
+}
+
+.text {
+  position: absolute;
+  right: 10%;
+  color: white;
+  top: 20%;
+  font-size: 12px;
+
+
+}
+
+/* Vtor del  */
+
+
+.fourparagraphs {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  top: 17%;
+  left: 35%;
+  justify-content: flex-start;
+}
+
+.catgoriesnumber {
+  /* background-color: pink; */
+  /* position: absolute; */
+  justify-content: flex-start;
+  text-align: left;
+  padding-right: 30px;
+  font-size: 15px;
+  color: #3E4153;
+
+}
+
+.itemsnumber {
+  text-align: left;
+  padding-right: 30px;
+  font-size: 15px;
+  color: #3E4153;
+
+}
+
+.ordersnumber {
+  /* background-color: red; */
+  text-align: left;
+  padding-right: 30px;
+  font-size: 15px;
+  color: #3E4153;
+}
+
+.totalcostnumber {
+  /* background-color: purple; */
+  text-align: left;
+  padding-right: 30px;
+  font-size: 15px;
+  color: #3E4153;
+
+}
+
+
+/* Dve kopcinja od strana */
+
+.controlpanel {
+  position: absolute;
+  right: -4%;
+  top: 17%;
+  width: 15%;
+
+}
+
+.imgcontrolpanel {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.buttoncontrolpanel {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  width: 20%;
+  height: 30px;
+  top: 30%;
+  right: -4%;
+}
+
+/* Vtoro kopce */
+.list {
+  position: absolute;
+  right: -2%;
+  top: 23%;
+  width: 13%;
+}
+
+.imglist {
+
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.buttonlist {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  width: 20%;
+  height: 30px;
+  top: 30%;
+  right: -4%;
+}
+
+/* Tret del kocki */
+/* Prva kocka */
+
+.inventoryboxes {
+  background-color: white;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+
+}
+
+.firstfourorders {
+  /* background-color: red;
+        position: absolute;
+        display:flex;
+        flex-direction: row; */
+}
+
+
+.firstinventorybox {
+  /* background-color: green;
+      position: absolute; */
+}
+
+.threeimgbox {
+
+  position: relative;
+  width: 100px;
+}
+
+.img1 {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.img2 {
+
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+
+}
+
+.img3 {
+
+  position: absolute;
+  top: 48%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside1 {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+
+.imginside2 {
+  width: 75px;
+  height: auto;
+}
+
+.imginside3 {
+  width: 75px;
+  height: auto;
+}
+
+/* Dolen del na kockata */
+
+.officesupply {
+
+  position: absolute;
+  top: 53%;
+  left: 4%;
+  text-decoration: none;
+
+}
+
+.officesupply span{
+  text-decoration: none;
+  color:#000000;
+ 
+}
+
+.link{
+  text-decoration: none;
+}
+
+.items3 {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+
+}
+
+.updateofficesupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgft {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrash {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 28px;
+  border-radius: 50%;
+
+}
+
+
+/* Vtora kocka */
+.secondinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 122%;
+  top: 0%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgboxsecond {
+  position: relative;
+  width: 100px;
+}
+
+.img1second {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imginside1second {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+.img2second {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+
+}
+
+
+.imginside2second {
+
+  width: 75px;
+  height: auto;
+}
+
+
+.img3second {
+  position: absolute;
+  top: 47%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside3second {
+  width: 75px;
+  height: auto;
+}
+
+/* Vtor del od kocka 2 */
+.kitchensupply {
+  position: absolute;
+  top: 53%;
+  left: 4%;
+}
+
+.items3second {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+}
+
+.updatekitchensupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgftsecond {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrashsecond {
+  position: absolute;
+  bottom: 3%;
+  right: 53%;
+  width: 28px;
+  border-radius: 50%;
+}
+
+
+/* Treta kocka */
+/* Prv del */
+
+.thirdinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 245%;
+  top: 0%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgboxthird {
+  position: relative;
+  width: 100px;
+}
+
+
+
+.img1third {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imginside1third {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+
+
+.img2third {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+}
+
+.imginside2third {
+  width: 75px;
+  height: auto;
+}
+
+.img3third {
+  position: absolute;
+  top: 47%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside3third {
+  width: 75px;
+  height: auto;
+}
+
+/* dolen den na kocka */
+
+.sanitarysupply {
+  position: absolute;
+  top: 53%;
+  left: 4%;
+}
+
+.items3third {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+}
+
+.updatesanitarysupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgfthird {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrashthird {
+  position: absolute;
+  bottom: 3%;
+  right: 53%;
+  width: 28px;
+  border-radius: 50%;
+
+}
+
+/* Cetvrta kocka */
+/* Prv del */
+.fourthtinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 365%;
+  top: 0%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgboxfourth {
+  position: relative;
+  width: 100px;
+}
+
+.img1fourth {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imginside1fourth {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+.img2fourth {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside2fourth {
+  width: 75px;
+  height: auto;
+}
+
+.img3fourth {
+  position: absolute;
+  top: 48%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside3fourth {
+  width: 75px;
+  height: auto;
+}
+
+
+.officesupplyfourth {
+  position: absolute;
+  top: 53%;
+  left: 4%;
+}
+
+.items3fourth {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+
+}
+
+.updateofficesupplyfourth {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgftfourth {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrashfourth {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 28px;
+  border-radius: 50%;
+}
+
+
+/* Dolen red - 4 kocki */
+
+/* Petta  */
+/* Prv del */
+
+.secondfourorders {
+  /* background-color: red;
+    position: absolute;
+    display:flex;
+    flex-direction: row; */
+}
+
+
+.fifthinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 35%;
+  top: 53%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgbox {
+
+  position: relative;
+  width: 100px;
+}
+
+.img1 {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.img2 {
+
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+
+}
+
+.img3 {
+
+  position: absolute;
+  top: 47%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside1 {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+
+.imginside2 {
+  width: 75px;
+  height: auto;
+}
+
+.imginside3 {
+  width: 75px;
+  height: auto;
+}
+
+/* Dolen del na kockata */
+
+.officesupply {
+
+  position: absolute;
+  top: 53%;
+  left: 4%;
+
+}
+
+.items3 {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+
+}
+
+.updateofficesupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgft {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrash {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 28px;
+  border-radius: 50%;
+
+}
+
+/* 6 kocka  */
+
+.sixinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 698px;
+  top: 53%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgboxsecond {
+  position: relative;
+  width: 100px;
+}
+
+.img1second {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imginside1second {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+.img2second {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+
+}
+
+
+.imginside2second {
+
+  width: 75px;
+  height: auto;
+}
+
+
+.img3second {
+  position: absolute;
+  top: 47%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside3second {
+  width: 75px;
+  height: auto;
+}
+
+/* Vtor del */
+.kitchensupply {
+  position: absolute;
+  top: 53%;
+  left: 4%;
+}
+
+.items3second {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+}
+
+.updatekitchensupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgftsecond {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrashsecond {
+  position: absolute;
+  bottom: 3%;
+  right: 53%;
+  width: 28px;
+  border-radius: 50%;
+}
+
+/* 7 kocka */
+
+.seventhinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 880px;
+  top: 53%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgboxthird {
+  position: relative;
+  width: 100px;
+}
+
+
+
+.img1third {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imginside1third {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+
+
+.img2third {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+}
+
+.imginside2third {
+  width: 75px;
+  height: auto;
+}
+
+.img3third {
+  position: absolute;
+  top: 47%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside3third {
+  width: 75px;
+  height: auto;
+}
+
+/* dolen den na kocka */
+
+.sanitarysupply {
+  position: absolute;
+  top: 53%;
+  left: 4%;
+}
+
+.items3third {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+}
+
+.updatesanitarysupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgfthird {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrashthird {
+  position: absolute;
+  bottom: 3%;
+  right: 53%;
+  width: 28px;
+  border-radius: 50%;
+
+}
+
+/* Osma kocka */
+
+.eightthinventorybox {
+  background-color: white;
+  position: absolute;
+  left: 1065px;
+  top: 53%;
+  display: flex;
+  display: inline-block;
+  width: 150px;
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.threeimgbox {
+
+  position: relative;
+  width: 100px;
+}
+
+.img1 {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.img2 {
+
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+
+
+}
+
+.img3 {
+
+  position: absolute;
+  top: 47%;
+  left: 75%;
+  width: 50px;
+  height: auto;
+}
+
+.imginside1 {
+  width: 75px;
+  height: auto;
+  left: 10px;
+}
+
+
+.imginside2 {
+  width: 75px;
+  height: auto;
+}
+
+.imginside3 {
+  width: 75px;
+  height: auto;
+}
+
+/* Dolen del na kockata */
+
+.officesupply {
+
+  position: absolute;
+  top: 53%;
+  left: 4%;
+
+}
+
+.items3 {
+  position: absolute;
+  top: 66%;
+  left: 4%;
+  font-size: 11px;
+
+}
+
+.updateofficesupply {
+  position: absolute;
+  top: 75%;
+  font-size: 14px;
+  left: 3%;
+  text-align: left;
+}
+
+.imgft {
+  position: absolute;
+  bottom: 5%;
+  right: 1%
+}
+
+.imgfoldertrash {
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  width: 28px;
+  border-radius: 50%;
+
+}
