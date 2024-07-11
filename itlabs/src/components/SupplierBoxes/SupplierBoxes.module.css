@@ -1,0 +1,15 @@
+.sboxesRow{
+    width: 67rem;
+    height: 33rem;
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}

@@ -1,0 +1,84 @@
+
+.scardsBox{
+    display: flex;
+    border: 1px solid rgb(197, 187, 187);
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.399);
+   border-radius: 5px;
+}
+.threeImages{
+    width: 190px;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.iconfirst{
+    width: 95px;
+    height:100px;
+
+}
+.twoIcons{
+    display: flex;
+    flex-direction: column;
+}
+.iconsecond{
+    width: 95px;
+    height:50px;
+}
+.iconthird{
+    width: 95px;
+    height:50px;
+}
+
+.secondPart{
+    width: 360px;
+    height:100px;
+padding-left: 15px;
+padding-top: 10px;
+}
+.label{
+    font-size: 20px;
+}
+.unitPrice{
+    display: flex;
+    font-size: 14px;
+}
+.unit{}
+.price{
+    padding-left: 8px;
+    color:rgb(88, 82, 82);
+}
+
+.thirdPart{
+    width: 190px;
+    height:100px;
+    border-left: 1px solid rgb(79, 72, 72);
+}
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 22px;
+    color:rgb(88, 82, 82);
+
+}
+
+.dateTime{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  
+}
+.date{}
+.time{}
+
+.icon{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    height: 35px;
+    padding-left: 150px;
+    padding-bottom: 5px;
+}

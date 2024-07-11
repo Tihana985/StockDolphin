@@ -1,0 +1,11 @@
+.cardsRowSecond{
+  
+    width: 740px;
+    height:440px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+
+}

@@ -13,19 +13,19 @@ export const InventorySummary = () => {
         {
             label: 'Items',
             number: '123',
-            icon: '/img/Folder.png',
+            icon: '/img/Documents.png',
             color: '#C8E6EE'
         },
         {
             label: 'Total Orders',
             number: '378',
-            icon: '/img/Folder.png',
+            icon: '/img/Paper.png',
             color: '#E5CAFF'
         },
         {
             label: 'Total Cost',
             number: '$1350',
-            icon: '/img/Folder.png',
+            icon: '/img/Coins.png',
             color: '#FFD5C0'
         },
     ]

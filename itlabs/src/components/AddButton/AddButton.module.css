@@ -1,0 +1,28 @@
+.addbutton{
+    display: flex;
+    justify-content: space-between;
+    background: #53A856;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width:150px;
+    height: 36px;
+    box-shadow: 2px 2px grey;
+    margin-right: 0;
+    margin-top: 15px;
+}
+
+.imageaddcategory{
+  background: #5DDB62;
+  height: 90%;
+  margin-top: 3px;
+  margin-left: 3px;  
+
+}
+
+.text{
+    color: white;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-right: 7px;
+
+}

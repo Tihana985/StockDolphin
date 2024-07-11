@@ -1,12 +1,12 @@
-.Dashboard {
+.dashboard {
     width: 100%;
-    height: 50vw;
+    height: 100%;
     display: flex;
     background: #EAEAEA;
     padding-left: 350px;
 }
 
 .mainContentLayout{
-    max-width: 880px;
+    max-width: 800px;
     margin: 0 auto;
 }
