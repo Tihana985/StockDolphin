@@ -1,4 +1,4 @@
-import styles from './IOfficeSMouse';
+import styles from './IOfficeSMouse.module.css';
 
 export const IOfficeSMouse = () => {
 

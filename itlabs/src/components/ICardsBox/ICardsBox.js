@@ -2,7 +2,6 @@ import styles from './ICardsBox.module.css';
 import { Link } from 'react-router-dom';
 
 export const ICardsBox = ({iconfirst, iconsecond, iconthird, label, unit, price, update, date, time, icon}) => {
-    console.log("Label:", label); // Debugging line
     return(
         <div className={styles.icardsBox}>
             <div className={styles.threeImages}>
