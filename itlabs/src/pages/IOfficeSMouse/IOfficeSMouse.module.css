@@ -1,4 +1,62 @@
-.iOfficeSMouse{
+.iOfficeSMousePage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #EAEAEA;
+    padding-left: 350px;
 
+}
+
+.mainContentLayout {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.titleSecond{
+    font-size: 28px;
+    color: #3E4153;
+    width:1050px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 590px;
+    padding-top: 5px;
+    color: rgb(56, 53, 53);
+    font-weight: 600;
+
+}
+.titleTwo {
+    font-size: 28px;
+    color: #3E4153;
+    display: flex;
+    justify-content: left;
+    
+    /* background-color: green; */
+}
+
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: rgb(56, 53, 53);
     
 }
+
+.text {}
+
+.titleTwo {
+    
+}
+
+.arrowTwo {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.textTwo {}
