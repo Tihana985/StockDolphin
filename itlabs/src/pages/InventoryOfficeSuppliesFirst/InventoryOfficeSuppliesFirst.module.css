@@ -1,9 +1,4 @@
 .inventoryOfficeSuppliesFirst {
-
-  /* width: 100%;
-  height: 743px;
-  background: #EAEAEA;
-  position: fixed; */
   width: 100%;
   height: 50vw;
   display: flex;
@@ -59,3 +54,11 @@
   width: 150px;
   display: flex;
 }
+
+/* .link{
+  text-decoration: none;
+}
+
+.linkEdit{
+  text-decoration: none;
+} */

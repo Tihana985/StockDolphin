@@ -3,9 +3,9 @@ import styles from "./Suppliers.module.css";
 import { Header } from "../../components/Header/Header";
 import { MainLayout } from "../../components/MainLayout/MainLayout";
 import { SearchBtn } from "../../components/SearchBtn/SeacrhBtn";
-import { AddButton } from "../../components/AddButton/AddButton";
+// import { AddButton } from "../../components/AddButton/AddButton";
 import { SupplierBoxes } from "../../components/SupplierBoxes/SupplierBoxes";
-
+import { AddSuppliersButton } from "../../components/AddSuppliersButton/AddSuppliersButton";
 export const Suppliers = () => {
 
         return (
@@ -17,7 +17,7 @@ export const Suppliers = () => {
                                 <div className={styles.twoBtn}>
                                         <SearchBtn title="Search Supplier" />
 
-                                        <AddButton title="SUPPLIERS" />
+                                        <AddSuppliersButton title="SUPPLIERS" />
                                 </div>
 
                                 <SupplierBoxes />

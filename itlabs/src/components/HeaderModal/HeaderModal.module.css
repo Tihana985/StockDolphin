@@ -1,0 +1,12 @@
+.headermodal {
+    background-color: #53A856;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-top-left-radius: 5px;  
+}
+
+.text {
+    color: white;
+}
+

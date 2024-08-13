@@ -11,6 +11,11 @@ import { ActivityHistory } from './pages/ActivityHistory/ActivityHistory';
 import { InventorySummary } from './pages/InventorySummary/InventorySummary';
 import { InventorySecond } from './pages/InventorySecond/InventorySecond';
 import { InventoryOfficeSuppliesFirst } from './pages/InventoryOfficeSuppliesFirst/InventoryOfficeSuppliesFirts';
+import { AddCategoryModal } from './components/Modals/AddCategoryModal/AddCategoryModal';
+import { AddItemModal } from './components/Modals/AddItemModal/AddItemModal';
+import { EditCategoryModal } from './components/Modals/EditCategoryModal/EditCategoryModal';
+import { DiscardModal } from './components/Modals/DisccardModal/DiscardModal';
+
 //import FetchContextProvider from "./uttils/FetchContextProvider";?
 
 function App() {
@@ -33,6 +38,12 @@ function App() {
         <Route path="/reports/inventorysummary" element={<InventorySummary />} />
         <Route path="/inventory/inventorysecondpage" element={<InventorySecond />} />
         <Route path="/inventory/inventoryofficesupliesfirstpage" element={<InventoryOfficeSuppliesFirst />} />
+        <Route path="/inventory/addmodal" element={<AddCategoryModal />} />
+        <Route path="/inventoryofficesupliesfirstpage/additemmodal" element={<AddItemModal />} />
+        <Route path="/inventoryofficesupliesfirstpage/editmmodal" element={<EditCategoryModal />} />
+        <Route path="/inventory/inventorysecondpage/inventory/addmodal" element={<AddCategoryModal />} />
+        <Route path="/addcatgorymodal/discardmodal" element={<DiscardModal />} />
+      
       </Routes>
     </div>
        //</FetchContextProvider>

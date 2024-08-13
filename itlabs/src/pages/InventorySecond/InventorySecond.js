@@ -19,8 +19,8 @@ export const InventorySecond = () => {
 
                 <div className={styles.twoBtn}>
                     <SearchBtn title="Search Category" />
-
                     <AddButton title="CATEGORY" />
+                 
                 </div>
 
                 {/* Vtor del  */}

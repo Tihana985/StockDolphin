@@ -1,8 +1,5 @@
-import { Link } from "react-router-dom";
 import { Navigation } from "../../components/Navigation/Navigation";
 import styles from "./Inventory.module.css";
-import React, { useState } from 'react';
-import { Modal } from "../../components/Modal/Modal";
 import { Header } from "../../components/Header/Header";
 import { MainLayout } from "../../components/MainLayout/MainLayout";
 import { SearchBtn } from "../../components/SearchBtn/SeacrhBtn";
@@ -11,19 +8,9 @@ import { SideBtn } from "../../components/SideBtn/SideBtn";
 import { InventoryCards } from "../../components/InventoryCards/InventoryCards";
 
 
-
-
 export const Inventory = () => {
 
-
-    const [searchTerm, setSearchTerm] = useState('');
-
-    const handleSearch = () => {
-        console.log('Search term:', searchTerm);
-    };
-
-
-
+   
     return (
         <div className={styles.inventory}>
             <Navigation />
@@ -32,8 +19,9 @@ export const Inventory = () => {
                 <Header title="Inventory" />
                 <div className={styles.twoBtn}>
                     <SearchBtn title="Search Category" />
+                 
+                   <AddButton title="CATEGORY" /> 
 
-                    <AddButton title="CATEGORY" />
                 </div>
 
                 {/* Vtor del  */}

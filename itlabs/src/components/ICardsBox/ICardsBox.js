@@ -1,7 +1,8 @@
 import styles from './ICardsBox.module.css';
+import { Link } from 'react-router-dom';
 
 export const ICardsBox = ({iconfirst, iconsecond, iconthird, label, unit, price, update, date, time, icon}) => {
-
+    console.log("Label:", label); // Debugging line
     return(
         <div className={styles.icardsBox}>
             <div className={styles.threeImages}>
@@ -12,7 +13,15 @@ export const ICardsBox = ({iconfirst, iconsecond, iconthird, label, unit, price,
         </div>
         </div>
         <div className={styles.secondPart}>
-        <div className={styles.label}> {label} </div>
+           
+           {label === "Office Supply" ? (
+            <Link to="inventoryofficesupliesfirstpage" className={styles.link} >
+                <div className={styles.label}> {label}</div> 
+         </Link>
+           ) : (
+            <div className={styles.label}> {label}</div> 
+           )}
+         </div>
         <div className={styles.unitPrice}>
         <div className={styles.unit}> {unit} </div>
         <div className={styles.price}> {price} </div>
@@ -29,7 +38,7 @@ export const ICardsBox = ({iconfirst, iconsecond, iconthird, label, unit, price,
         <img src={icon} className={styles.icon} alt="icontrash"/> 
         </div>
         </div>
-        </div>
+        
     )
 }
 

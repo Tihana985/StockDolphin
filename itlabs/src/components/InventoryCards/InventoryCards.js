@@ -8,6 +8,7 @@ export const InventoryCards = () => {
 
     const inventoryCardsFirts = [
         {
+            id: 1,
             iconfirst: '/img/Recent Item 2 img (24).png',
             iconsecond: '/img/Recent Item 2 img (9).png',
             iconthird: '/img/Recent Item 2 img (5).png',
@@ -21,6 +22,7 @@ export const InventoryCards = () => {
         },
 
         {
+            id: 2,
             iconfirst: '/img/Recent Item 2 img (3).png',
             iconsecond: '/img/Recent Item 2 img (12).png',
             iconthird: '/img/Recent Item 2 img (13).png',
@@ -35,6 +37,7 @@ export const InventoryCards = () => {
         },
 
         {
+            id: 3,
             iconfirst: '/img/Recent Item 2 img (14).png',
             iconsecond: '/img/Recent Item 2 img (15).png',
             iconthird: '/img/Recent Item 2 img (15).png',
@@ -48,6 +51,7 @@ export const InventoryCards = () => {
         },
 
         {
+            id: 4,
             iconfirst: '/img/Recent Item 2 img (8).png',
             iconsecond: '/img/Recent Item 2 img (9).png',
             iconthird: '/img/Recent Item 2 img (5).png',
@@ -65,8 +69,8 @@ export const InventoryCards = () => {
     return (
        
             <div className={styles.icardsRow}>
-                {inventoryCardsFirts.map((item, index) => {
-                    return <ICardsBox key={index} iconfirst={item.iconfirst} iconsecond={item.iconsecond} iconthird={item.iconthird} label={item.label} unit={item.unit} price={item.price}  
+                {inventoryCardsFirts.map((item) => {
+                    return <ICardsBox key={item.id} iconfirst={item.iconfirst} iconsecond={item.iconsecond} iconthird={item.iconthird} label={item.label} unit={item.unit} price={item.price}  
                     update={item.update} date={item.date} time={item.time} icon={item.icon} />
                 }) }
               </div>

@@ -9,7 +9,6 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.399);
 position: relative; 
 overflow: hidden;
 
-
 }
 
 .threeImages{
@@ -62,14 +61,20 @@ overflow: hidden;
 .label{
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
-    width: 130px;
+   font-size: 14px;
+    
+    
+ 
+}
+.link{ 
+    text-decoration: none;
+    color: black;
 }
 
 .unitPrice {
     display: flex;
-    justify-content:space-between;
-    padding-right: 50px;
+    justify-content:space-around;
+    padding-right: 20px;
     font-size: 12px;
   }
 
@@ -80,12 +85,13 @@ overflow: hidden;
 
   .update{
     font-size: 12px;
+    padding-left: 10px;
 }
 
 .dateTime{
     display: flex;
-    justify-content: space-around;
-    padding-right: 50px;
+    justify-content: space-evenly;
+    padding-right: 30px;
     width:150px;
     font-size: 12px;
   
@@ -95,7 +101,7 @@ overflow: hidden;
     position: absolute; 
     bottom: 5px; 
     right: 5px; 
-    width: 40px;
+    width: 35px;
   
 }  
  

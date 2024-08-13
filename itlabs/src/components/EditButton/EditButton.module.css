@@ -1,0 +1,32 @@
+.editButton{
+    background: #53A856;
+    width:10rem;
+    height: 2.3rem;
+    box-shadow: 2px 2px grey;
+    display: flex;
+    margin-left: 60rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.editButton img{ 
+    background-color:#5DDB62;
+    color: white;
+    border-radius: 50px;
+    width:2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+
+
+}
+
+.editButton button{
+    color:white;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}

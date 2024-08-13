@@ -1,11 +1,11 @@
-import { AddCategoryModal } from "../Modals/AddCategoryModal/AddCategoryModal";
-import styles from "./AddButton.module.css";
+import { AddSuppliersModal } from "../Modals/AddSuppliersModal/AddSuppliersModal";
+import styles from "./AddSuppliersButton.module.css";
 import { useState } from "react";
 
 
-export const AddButton = ({ title }) => {
+export const AddSuppliersButton = ({ title }) => {
 
-    const [openModal, setOpenModal] = useState(false);
+    const [openModal, setOpenModal] = useState(false)
 
     return (
         <div className={styles.addbutton}>
@@ -15,7 +15,7 @@ export const AddButton = ({ title }) => {
             }}
             >
                 ADD {title}</button>
-            {openModal && <AddCategoryModal closeModal={setOpenModal} />}
+            {openModal && <AddSuppliersModal closeModal = {setOpenModal}/>}
         </div>
     );
 };

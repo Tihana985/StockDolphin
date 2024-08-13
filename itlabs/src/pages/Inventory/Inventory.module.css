@@ -1,5 +1,5 @@
 .inventory {
-  width: 92rem;
+  width: 94.95rem;
   height: 50rem;
   background: #EAEAEA;
   padding-left: 350px;
@@ -67,4 +67,10 @@
 .imginside3 {
   width: 75px;
   height: auto;
+}
+
+.link{
+  text-decoration: none;
+ 
+  
 }
