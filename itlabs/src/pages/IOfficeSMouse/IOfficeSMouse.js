@@ -2,6 +2,7 @@ import { Navigation } from '../../components/Navigation/Navigation';
 import styles from './IOfficeSMouse.module.css';
 import { MainLayout } from '../../components/MainLayout/MainLayout';
 import { Header } from '../../components/Header/Header';
+import { AddOrderButton } from '../../components/AddOrderButton/AddOrderButton';
 
 export const IOfficeSMouse = () => {
 
@@ -39,7 +40,7 @@ export const IOfficeSMouse = () => {
                     <span>12</span>
                     </div>
                 </div>
-                <button>Add Orders</button>
+                <AddOrderButton />
 </div>
 </div>
         </MainLayout>
