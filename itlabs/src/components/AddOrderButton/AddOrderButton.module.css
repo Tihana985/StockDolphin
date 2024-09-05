@@ -1,0 +1,28 @@
+.addOrderButton {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #53A856;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width:150px;
+    height: 36px;
+    box-shadow: 2px 2px grey;
+    margin-right: 2px;
+    margin-bottom: 5px;
+  
+}
+
+.imageaddcategory {
+    background: #5DDB62;
+    height: 90%;
+    margin-top: 3px;
+    margin-left: 3px;  
+}
+
+.button {  color: white;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-right: 17px;
+    background-color: transparent;
+    border: none;}

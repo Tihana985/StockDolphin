@@ -1,0 +1,148 @@
+.addImodal{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background: rgba(179, 168, 168, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; 
+}
+
+.modalForm{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(92, 88, 88);
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #53A856;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header label{
+
+    color:white;
+    padding-left: 10px;
+}
+
+.btnX{
+    background-color: transparent;
+    border:none ;
+ 
+}
+
+.centralPart{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.name label{
+    width: 300px;
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 15px;   
+}
+
+
+.name hr{
+    width:280px;
+}
+.supplier{
+    height: 80px;
+
+}
+.supplier label{
+    width: 300px;
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 15px;  
+}
+
+.supplier hr{
+    width:280px;
+
+}
+
+.rectangle{
+    width: 300px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.img{
+    height: 150px;
+    width:200px;
+}
+
+.selectOrders{
+    width: 300px;
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 15px;  
+ }
+
+ .selectOrders hr{
+width: 280px;
+
+ }
+.twoBtn{
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cancelBtn{ 
+    width:110px;
+    height: 30px;
+    background-color:#4a4343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(134, 127, 127);
+    font-size: 12px;
+    color: black;
+}
+ .savechangesBtn{
+    width:110px;
+    height: 30px;
+    background-color: #53A856;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(134, 127, 127);
+    font-size: 12px;
+    color: white;
+}
+
+.imgX{
+    border: none;
+    background-color: transparent;
+} 

@@ -8,16 +8,15 @@
 }
 
 .mainContentLayout {
-    max-width: 800px;
+    max-width: 1150px;
     margin: 0 auto;
-    background-color: red;
 }
 
 
-.titleSecond{
+.titleSecond {
     font-size: 28px;
     color: #3E4153;
-    width:1050px;
+    width: 1050px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -27,12 +26,13 @@
     font-weight: 600;
 
 }
+
 .titleTwo {
     font-size: 28px;
     color: #3E4153;
     display: flex;
     justify-content: left;
-    
+
     /* background-color: green; */
 }
 
@@ -45,13 +45,7 @@
     align-items: center;
     padding-top: 10px;
     color: rgb(56, 53, 53);
-    
-}
 
-.text {}
-
-.titleTwo {
-    
 }
 
 .arrowTwo {
@@ -60,4 +54,113 @@
     padding-top: 10px;
 }
 
-.textTwo {}
+.upPart {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.upperPart {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+/* Vtor del */
+
+.twoParts {
+    display:flex;
+    width:100%;
+    height: 500px;
+}
+
+.leftPart {
+    width:70%;
+}
+
+.topicAndButton {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+.topicAndButton span{
+    font-size: 28px;
+    color: #3E4153;
+    font-weight: 600;
+}
+
+.sumBox {
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+}
+
+.rightPart {
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    align-items: center;
+    margin-left: 20px;
+    padding-left: 50px;
+   
+
+}
+
+.rightPart img{
+    height: 180px;
+    border-radius: 5px;
+    width: 280px;
+}
+
+.rightPart span{
+    height: 50px;
+    width: 280px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.btns{
+    width:280px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.imgBtn{
+    width:60px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    
+}
+
+
+.imgBtn img {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+    background-color: #53A856;
+    box-shadow: 2px 2px 5px rgb(92, 88, 88);
+}
+
+.btnSave{
+    width:130px;
+    height: 40px;
+    background-color: #53A856;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(92, 88, 88);
+}
