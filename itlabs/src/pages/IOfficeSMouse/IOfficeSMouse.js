@@ -62,6 +62,18 @@ export const IOfficeSMouse = () => {
                                 < GenerateInvoiceBtn />
                             </div>
                             <div className={styles.sumBox}>
+                                <div className={styles.labelAndButton}>
+                                <div className={styles.label}>
+                                    <label>Quantity </label>
+                                   <label> Total Price</label>
+                                   <label> Price per unit</label>
+                                   <label> Ordered at</label>
+                                   <label> Supplier</label>  
+                                </div>
+                        <button><img src="\img\Descending Sorting.png" alt="img Descending Sorting"/></button>
+                            
+                                </div>
+                                <hr />
                             </div>
                         </div>
 

@@ -97,9 +97,40 @@
 .sumBox {
     width: 100%;
     height: 90%;
-    background-color: aqua;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px ;
+    box-shadow: 2px 2px 5px rgb(92, 88, 88);
+   
 }
 
+.labelAndButton{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label{
+
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:15px;
+    
+    
+}
+
+.labelAndButton button{
+    width: 5%;
+    border: none;
+    background-color: white;
+    margin-right: 5px;
+}
+
+.sumBox hr{
+    width: 97%;
+}
 .rightPart {
     width:30%;
     display: flex;
