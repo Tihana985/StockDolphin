@@ -1,11 +1,11 @@
 import { Navigation } from "../../components/Navigation/Navigation";
 import styles from "./InventorySecond.module.css";
 import { Header } from "../../components/Header/Header";
-import { SearchBtn } from "../../components/SearchBtn/SeacrhBtn";
 import { AddButton } from "../../components/AddButton/AddButton";
 import { MainLayout } from "../../components/MainLayout/MainLayout";
 import { SideBtn } from "../../components/SideBtn/SideBtn";
 import { InventoryCardsSecond } from "../../components/InventoryCardsSecond/InventoryCardsSecond";
+import { SearchCategoryInput } from "../../components/SearchCategoryInput/SeacrhCategoryInput";
 
 export const InventorySecond = () => {
     return (
@@ -18,7 +18,7 @@ export const InventorySecond = () => {
 
 
                 <div className={styles.twoBtn}>
-                    <SearchBtn title="Search Category" />
+                    <SearchCategoryInput placeholder="Search Category" title="Search Category"/>
                     <AddButton title="CATEGORY" />
                  
                 </div>

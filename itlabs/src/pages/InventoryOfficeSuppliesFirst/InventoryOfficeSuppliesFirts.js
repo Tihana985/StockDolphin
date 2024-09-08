@@ -2,11 +2,11 @@ import { Navigation } from "../../components/Navigation/Navigation";
 import styles from "./InventoryOfficeSuppliesFirst.module.css";
 import { Header } from "../../components/Header/Header";
 import { MainLayout } from "../../components/MainLayout/MainLayout";
-import { SearchBtn } from "../../components/SearchBtn/SeacrhBtn";
 import { AddItemButton } from "../../components/AddItemButton/AddItemButton";
 import { SideBtn } from "../../components/SideBtn/SideBtn";
 import { OfficeSuppliesCards } from "../../components/OfficeSuppliesCards/OfficeSuppliesCards";
 import { EditButton } from "../../components/EditButton/EditButton";
+import { SearchCategoryInput } from "../../components/SearchCategoryInput/SeacrhCategoryInput";
 
 
 export const InventoryOfficeSuppliesFirst = () => {
@@ -23,7 +23,7 @@ export const InventoryOfficeSuppliesFirst = () => {
                 </Header>
 
                 <div className={styles.twoBtn}>
-                    <SearchBtn title="Search Category" />
+                    <SearchCategoryInput placeholder="Search Category" title="Search Category" />
                     <AddItemButton title="ITEM" className={styles.addItem} />
                     
                 </div>
