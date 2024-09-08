@@ -6,6 +6,7 @@ import { AddOrderButton } from '../../components/AddOrderButton/AddOrderButton';
 import { GenerateInvoiceBtn } from '../../components/GenerateInvoiceBtn/GenerateInvoiceBtn';
 import { useState } from 'react';
 import { MoveItemModal } from '../../components/Modals/MoveItemModal/MoveItemModal';
+import { OrdersSum } from '../../components/OrdersSum/OrdersSum';
 
 
 export const IOfficeSMouse = () => {
@@ -74,6 +75,7 @@ export const IOfficeSMouse = () => {
                             
                                 </div>
                                 <hr />
+                                <OrdersSum />
                             </div>
                         </div>
 

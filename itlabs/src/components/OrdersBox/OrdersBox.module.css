@@ -1,0 +1,33 @@
+.ordersBox{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 7px;
+    color:#3E4153;
+    font-weight: 500;
+}
+
+.quantity{
+
+
+}
+
+.totalprice{
+}
+
+.priceperunit{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.orderedat{
+    margin-left: 35px;
+}
+
+.supplier{
+    width:15%;
+    margin-right: 25px;
+}
