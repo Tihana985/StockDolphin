@@ -12,6 +12,7 @@ import { InventorySummary } from './pages/InventorySummary/InventorySummary';
 import { InventorySecond } from './pages/InventorySecond/InventorySecond';
 import { InventoryOfficeSuppliesFirst } from './pages/InventoryOfficeSuppliesFirst/InventoryOfficeSuppliesFirts';
 import { IOfficeSMouse } from './pages/IOfficeSMouse/IOfficeSMouse';
+import { InventoryThirdPage } from './pages/InventoryThirdPage/InventoryThirdPage';
 
 //import FetchContextProvider from "./uttils/FetchContextProvider";?
 
@@ -30,8 +31,10 @@ function App() {
         <Route path="/reports/activityhistory" element={<ActivityHistory />} />
         <Route path="/reports/inventorysummary" element={<InventorySummary />} />
         <Route path="/inventory/inventorysecondpage" element={<InventorySecond />} />
+        <Route path="/inventory/inventorythirdpage" element={<InventoryThirdPage />} />
         <Route path="/inventory/inventoryofficesupliesfirstpage" element={<InventoryOfficeSuppliesFirst />} />
         <Route path="/inventory/inventoryofficesupliesfirstpage/mouse" element={<IOfficeSMouse/>} />
+
       
       </Routes>
     </div>

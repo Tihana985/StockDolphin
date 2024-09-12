@@ -6,7 +6,7 @@ export const BtnList = () => {
     return (
       
         <div className={styles.btnList}> 
-        <Link to="/inventory/inventorysecondpage"> <img src="\img\List.png" alt="addnew" /></Link>
+        <Link to="/inventory/inventorythirdpage"> <img src="\img\List.png" alt="addnew" /></Link>
  </div> 
     );
 }; 
