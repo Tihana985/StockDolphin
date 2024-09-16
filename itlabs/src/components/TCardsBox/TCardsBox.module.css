@@ -1,54 +1,45 @@
-.scardsBox {
+.tcardsBox {
+
     display: flex;
     border: 1px solid rgb(197, 187, 187);
     background-color: white;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.399);
     border-radius: 5px;
+    height: 100px;
+    margin-bottom: 10px;
+
 }
 
-.threeImages {
+.firstPart{
     width: 190px;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
-
+    background-color: red;
+}
+.icon {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+   
 }
 
-.iconfirst {
-    width: 95px;
-    height: 100px;
-
-}
-
-.twoIcons {
-    display: flex;
-    flex-direction: column;
-}
-
-.iconsecond {
-    width: 95px;
-    height: 50px;
-}
-
-.iconthird {
-    width: 95px;
-    height: 50px;
-}
-
-.secondPart {
+.secondPart{
+    width: 360px;
     width: 360px;
     height: 100px;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 18px;
+    padding-top: 15px;
+    border-left: 1px solid black;
+    border-right: 1px solid black ;
 }
 
 .label {
     font-size: 20px;
 }
 
-.unitPrice {
+.unitPrice{
     display: flex;
     font-size: 14px;
+    color: rgb(88, 82, 82);
 }
 
 .unit {}
@@ -58,10 +49,8 @@
     color: rgb(88, 82, 82);
 }
 
-.thirdPart {
+.thirdPart{
     width: 190px;
-    height: 100px;
-    border-left: 1px solid rgb(79, 72, 72);
 }
 
 .update {
@@ -74,22 +63,21 @@
 
 }
 
-.dateTime {
+.dateTime{
     display: flex;
     justify-content: center;
     font-size: 14px;
 
 }
-
 .date {}
 
 .time {}
 
-.icon {
+.iconsecond {
     display: flex;
     justify-content: right;
     align-items: end;
     height: 35px;
-    padding-left: 150px;
+    padding-left: 140px;
     padding-bottom: 5px;
 }

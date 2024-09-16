@@ -58,8 +58,6 @@ export const InventoryCardsSecond = (confirst, iconsecond, iconthird, label, uni
             icon: '/img/Folder 1 (items) (1).png'
         }
 
-
-
     ]
 
     return (

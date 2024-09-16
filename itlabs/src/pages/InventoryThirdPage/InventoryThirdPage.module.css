@@ -36,3 +36,31 @@
     display: flex;
     justify-content: space-between;
   }
+
+  
+.twoParts{
+  display: flex;
+  justify-content: space-between;
+  width:1050px;
+  height: 440px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.leftPart{
+  width: 700px;
+  height: 440px;
+}
+  
+   
+.rightPart{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding-left: 210px;
+
+}
+
+.editBtn{
+margin-top: 10px;
+ 
+}

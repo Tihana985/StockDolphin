@@ -4,6 +4,9 @@ import { Navigation } from "../../components/Navigation/Navigation";
 import styles from "./InventoryThirdPage.module.css";
 import { SearchCategoryInput } from "../../components/SearchCategoryInput/SeacrhCategoryInput";
 import { AddButton } from "../../components/AddButton/AddButton";
+import { SideBtn } from "../../components/SideBtn/SideBtn";
+import { EditButton } from "../../components/EditButton/EditButton";
+import { InventoryCardsThird } from "../../components/InventoryCardsThird/InventoryCardsThird";
 
 
 export const InventoryThirdPage = () => {
@@ -24,6 +27,18 @@ export const InventoryThirdPage = () => {
                 <SearchCategoryInput placeholder="Search Category" title="Search Category" />
                 <AddButton title="CATEGORY" />
             </div>
+
+            <div className={styles.twoParts}>
+            <div className={styles.leftPart}>
+                <InventoryCardsThird />
+            </div>
+            
+            
+            <div className={styles.rightPart}>
+                <SideBtn />
+            </div>
+            </div>
+            <div className={styles.editBtn}><EditButton /> </div>
             </MainLayout>
         </div>
     )
