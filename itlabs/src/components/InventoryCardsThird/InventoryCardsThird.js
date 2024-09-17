@@ -6,9 +6,9 @@ export const InventoryCardsThird = () =>{
     const cardsThird = [
 
         {
-            icon: '/img/Recent Item 2 img (24).png',
-            label: 'Office Supply',
-            unit: ' 3 items  |',
+            icon: '/img/Recent Item 2 img (17).png',
+            label: 'Mouse',
+            unit: ' 3 Purchase Records |',
             price: '€338.00',
             update: 'Updated At:',
             date: '10/10/2023',
@@ -16,30 +16,30 @@ export const InventoryCardsThird = () =>{
             iconsecond: '/img/Folder 1 (items) (1).png'
         },
         {
-            icon: '/img/Recent Item 2 img (24).png',
-            label: 'Office Supply',
-            unit: ' 3 items  |',
-            price: '€338.00',
+            icon: '/img/Recent Item 2 img (16).png',
+            label: 'Keyboard',
+            unit: ' 3 Purchase Records |',
+            price: ' € 114.00',
             update: 'Updated At:',
             date: '10/10/2023',
             time: '20:10',
             iconsecond: '/img/Folder 1 (items) (1).png'
         },
         {
-            icon: '/img/Recent Item 2 img (24).png',
-            label: 'Office Supply',
-            unit: ' 3 items  |',
-            price: '€338.00',
+            icon: '/img/Recent Item 2 img (25).png',
+            label: 'Headphones',
+            unit: ' 3 Purchase Records |',
+            price: '€ 98.00',
             update: 'Updated At:',
             date: '10/10/2023',
             time: '20:10',
             iconsecond: '/img/Folder 1 (items) (1).png'
         },
         {
-            icon: '/img/Recent Item 2 img (24).png',
-            label: 'Office Supply',
-            unit: ' 3 items  |',
-            price: '€338.00',
+            icon: '/img/Recent Item 2 img (17).png',
+            label: 'Mouse',
+            unit: ' 3 Purchase Records |',
+            price: ' € 338.00',
             update: 'Updated At:',
             date: '10/10/2023',
             time: '20:10',

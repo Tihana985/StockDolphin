@@ -47,7 +47,7 @@
   margin-top: 25px;
 }
 .leftPart{
-  width: 700px;
+  width: 740px;
   height: 440px;
 }
   
@@ -55,9 +55,8 @@
 .rightPart{
   display: flex;
   flex-direction: column;
-  width: 350px;
-  padding-left: 210px;
-
+  width: 210px;
+  padding-left: 70px;
 }
 
 .editBtn{
