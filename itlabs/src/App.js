@@ -13,7 +13,7 @@ import { InventorySecond } from './pages/InventorySecond/InventorySecond';
 import { InventoryOfficeSuppliesFirst } from './pages/InventoryOfficeSuppliesFirst/InventoryOfficeSuppliesFirts';
 import { IOfficeSMouse } from './pages/IOfficeSMouse/IOfficeSMouse';
 import { InventoryThirdPage } from './pages/InventoryThirdPage/InventoryThirdPage';
-
+import { LoginPage } from './pages/LoginPage/LoginPage';
 //import FetchContextProvider from "./uttils/FetchContextProvider";?
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
 //<FetcContextProvider>
     <div className="App"> 
       <Routes>
-
+      <Route path="/login" element={<LoginPage />} />
         <Route path="/" element={<Dashboard />} />
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/reports" element={<Reports />} />
