@@ -1,9 +1,15 @@
 import styles from "./RecentOrders.module.css";
 import { RecentOrdersBox } from "./RecentOrdersBox";
-
-
+import { Pagination } from '../../Pagination/Pagination';
+import { useState } from "react";
 
 export const RecentOrders = () => {
+
+// Paginacija dodavam 
+
+
+const [currentPage, setCurrentPage] = useState(1);
+
 
 
     const recentordresItems = [
@@ -47,8 +53,9 @@ export const RecentOrders = () => {
                 }) }
                 <button className={styles.buttonArrow}> <img src="/img/Expand Arrow.png" alt="arrow" /></button>
             </div>
-            <button className={styles.buttonpagination}>. . .</button>
-            
+            {/* <button className={styles.buttonpagination}>. . .</button> */}
+            <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} />
+
         </div>
     );
 };
