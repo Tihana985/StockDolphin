@@ -66,6 +66,10 @@
     height: 30px;
 }
 
+.error {
+    color: red;
+}
+
 .span {
     color: rgb(93, 90, 90);
 }
