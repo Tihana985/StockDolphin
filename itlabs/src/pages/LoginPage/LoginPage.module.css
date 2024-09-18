@@ -77,3 +77,18 @@
 .link {
     text-decoration: none;
 }
+
+.span {
+    color: rgb(93, 90, 90);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    width: 520px;
+    color:  #53A856;
+}
+
+.spantwo{
+    color:  #53A856;
+
+}

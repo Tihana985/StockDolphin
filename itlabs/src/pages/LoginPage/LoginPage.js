@@ -12,7 +12,7 @@ export const LoginPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-     
+
         if (email === '' || password === '') {
             setError('Please fill all fields');
         } else {
@@ -47,10 +47,12 @@ export const LoginPage = () => {
                     </div>
                     <button type="submit" className={styles.btnlogin}>Log In</button>
                     {error && <p className={styles.error}>{error}</p>}
-                    <span className={styles.span}>Don't have an account? <Link to="/login/signup" label="Sign Up" className={styles.link}>Sign Up</Link> </span>
-                 
+                    <span className={styles.spanaccount}>Don't have an account? <Link to="/login/signup" label="Sign Up" className={styles.link}>Sign Up</Link> </span>
+
                 </form>
             </div>
+            <span className={styles.span}>Innovative Inventory System</span>
+            <span className={styles.spantwo}>designed to revolutionise the way offices manage and stock their supplies</span>
         </div>
     )
 }
