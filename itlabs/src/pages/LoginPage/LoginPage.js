@@ -1,6 +1,7 @@
 import styles from "./LoginPage.module.css";
 import { Logo } from "../../components/Logo/Logo";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 export const LoginPage = () => {
@@ -24,31 +25,30 @@ export const LoginPage = () => {
         <div className={styles.loginpage}>
             <header className={styles.header}>
                 <Logo />
-                <div className={styles.rightPart}>
-                    <button>Login</button>
-                </div>
             </header>
             <div className={styles.container}>
                 <h3>Welcome back!</h3>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} className={styles.form}>
                     <div className={styles.emailinput}>
-                        <label>Email:</label>
                         <input
                             type="email"
                             value={email}
+                            placeholder="Enter your email"
                             onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
                     <div className={styles.passwordinput}>
-                        <label>Password:</label>
                         <input
                             type="password"
                             value={password}
+                            placeholder="Enter your password"
                             onChange={(e) => setPassword(e.target.value)}
                         />
                     </div>
-                    <button type="submit">Log In</button>
-                    <span>D</span>
+                    <button type="submit" className={styles.btnlogin}>Log In</button>
+                    {error && <p className={styles.error}>{error}</p>}
+                    <span className={styles.span}>Don't have an account? <Link to="/login/signup" label="Sign Up" className={styles.link}>Sign Up</Link> </span>
+                 
                 </form>
             </div>
         </div>

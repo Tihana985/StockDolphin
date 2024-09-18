@@ -14,14 +14,16 @@ import { InventoryOfficeSuppliesFirst } from './pages/InventoryOfficeSuppliesFir
 import { IOfficeSMouse } from './pages/IOfficeSMouse/IOfficeSMouse';
 import { InventoryThirdPage } from './pages/InventoryThirdPage/InventoryThirdPage';
 import { LoginPage } from './pages/LoginPage/LoginPage';
+import { SignUpPage } from './pages/SignUpPage/SignUpPage';
 //import FetchContextProvider from "./uttils/FetchContextProvider";?
 
 function App() {
   return (
-//<FetcContextProvider>
-    <div className="App"> 
+    //<FetcContextProvider>
+    <div className="App">
       <Routes>
-      <Route path="/login" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/login/signup" element={<SignUpPage />} />
         <Route path="/" element={<Dashboard />} />
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/reports" element={<Reports />} />
@@ -33,12 +35,12 @@ function App() {
         <Route path="/inventory/inventorysecondpage" element={<InventorySecond />} />
         <Route path="/inventory/inventorythirdpage" element={<InventoryThirdPage />} />
         <Route path="/inventory/inventoryofficesupliesfirstpage" element={<InventoryOfficeSuppliesFirst />} />
-        <Route path="/inventory/inventoryofficesupliesfirstpage/mouse" element={<IOfficeSMouse/>} />
+        <Route path="/inventory/inventoryofficesupliesfirstpage/mouse" element={<IOfficeSMouse />} />
 
-      
+
       </Routes>
     </div>
-       //</FetchContextProvider>
+    //</FetchContextProvider>
   );
 }
 
