@@ -5,7 +5,7 @@ export const TCardsBox = ({ icon, label, unit, price, update, date, time, iconse
     return (
         <div className={styles.tcardsBox}>
             <div className={styles.firstPart}>
-            <img className={styles.img} src={icon} alt="mouse"  />
+            <img className={styles.imgIcon} src={icon} alt="mouse"  />
             </div>
             <div className={styles.secondPart}>
                 <div className={styles.label}>{label}</div>
