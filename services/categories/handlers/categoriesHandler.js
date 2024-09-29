@@ -3,6 +3,7 @@ const Items = require("../../../pkg/items/itemsSchema");
 
 // Show all categories
 exports.getAllCategories = async(req, res) => {
+    console.log('nikola')
     try{
         const queryObj = {...req.query}
         let queryString = JSON.stringify(queryObj); 

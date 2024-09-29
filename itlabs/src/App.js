@@ -15,11 +15,11 @@ import { IOfficeSMouse } from './pages/IOfficeSMouse/IOfficeSMouse';
 import { InventoryThirdPage } from './pages/InventoryThirdPage/InventoryThirdPage';
 import { LoginPage } from './pages/LoginPage/LoginPage';
 import { SignUpPage } from './pages/SignUpPage/SignUpPage';
-//import FetchContextProvider from "./uttils/FetchContextProvider";?
+import FetchContextProvider from "./uttils/FetchContextProvider";
 
 function App() {
   return (
-    //<FetcContextProvider>
+    // <FetchContextProvider>
     <div className="App">
       <Routes>
         <Route path="/login" element={<LoginPage />} />
@@ -40,7 +40,7 @@ function App() {
 
       </Routes>
     </div>
-    //</FetchContextProvider>
+    // </FetchContextProvider>
   );
 }
 

@@ -1,18 +1,18 @@
 .inventory {
-  width: 94.80rem;
+  width: 94.90rem;
   height: 50rem;
   background: #EAEAEA;
   padding-left: 350px;
 }
 
-.twoBtn{
+.twoBtn {
   display: flex;
   justify-content: space-between;
 }
 
 /* Vtor del  */
 
-.secondPart{
+.secondPart {
   /* background-color: red; */
   margin-top: 20px;
   margin-left: 50px;
@@ -22,46 +22,45 @@
   justify-content: space-between;
 }
 
-.leftPart{
-  /* background-color: green; */
+.leftPart {
   width: 800px;
-  height:500px;
+  height: 500px;
   display: flex;
-   flex-direction: column; 
+  flex-direction: column;
 }
 
 .fourparagraphs {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 5px;
   width: 600px;
-  height:30px;
+  height: 30px;
   font-size: 14px;
   color: #3E4153;
 }
 
-.inventoryPart{
+.inventoryPart {
   display: flex;
   justify-content: left;
   margin-right: 50px;
   width: 800px;
-  height:400px;
+  height: 400px;
   margin-top: 20px;
 }
 
 
 /* Dve kopcinja od strana */
 
-.rightPart{
+.rightPart {
+  width: 100px;
+  display: flex;
 
-  width: 150px;
-  display: flex;
-  
 }
-.sideBtn{
-  display: flex;
-  flex-direction: column;
-  
+
+.sideBtn {
+  /* display: flex;
+  flex-direction: column; */
+
 }
 
 .imginside3 {
@@ -69,8 +68,8 @@
   height: auto;
 }
 
-.link{
+.link {
   text-decoration: none;
- 
-  
+
+
 }
