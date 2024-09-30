@@ -80,7 +80,9 @@
     "utils-merge": "^1.0.1",
     "uuid": "^9.0.1",
     "validator": "^13.11.0",
-    "vary": "^1.1.2"
+    "vary": "^1.1.2",
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": ["@babel/plugin-proposal-private-property-in-object"]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -88,5 +90,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }

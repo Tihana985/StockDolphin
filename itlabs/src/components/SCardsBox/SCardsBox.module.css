@@ -39,10 +39,11 @@
     width: 360px;
     height: 100px;
     padding-left: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .label {
+    
     font-size: 20px;
 }
 
@@ -71,14 +72,12 @@
     font-size: 14px;
     padding-top: 22px;
     color: rgb(88, 82, 82);
-
 }
 
 .dateTime {
     display: flex;
     justify-content: center;
-    font-size: 14px;
-
+    font-size: 12px;
 }
 
 .date {}
