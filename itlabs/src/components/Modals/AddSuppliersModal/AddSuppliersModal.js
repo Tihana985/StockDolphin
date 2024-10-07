@@ -4,21 +4,27 @@ import { useState } from 'react';
 import { DiscardModal } from '../DisccardModal/DiscardModal';
 
 
-export const AddSuppliersModal = ({ closeModal}) => {
+export const AddSuppliersModal = ({ closeModal, supplierData = {}, onChange, }) => {
 
 const [openModal, setOpenModal]=useState(false);
+
     return (
         <div className={styles.addItemModal}>
-
             <div className={styles.modalForm}>
-
                 <header className={styles.header}>
                     <HeaderModal text="SUPPLIERS" />
                     <button onClick={() => closeModal(false)} className={styles.buttonX}><img src="/img/Multiply.png" alt="x" /></button>
                 </header>
                 <div className={styles.centralPart}>
                     <div className={styles.name}>
-                        <label className={styles.label}>Name *</label>
+                        <input
+                        placeholder='Name*'
+                        type='text'
+                        name='name'
+                        value={supplierData.name || ''}
+                        className={styles.label} 
+                        onChange={onChange}
+                        required />
                         <hr />
                     </div>
 

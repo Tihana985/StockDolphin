@@ -5,7 +5,18 @@ import { useState } from "react";
 
 export const AddSuppliersButton = ({ title }) => {
 
-    const [openModal, setOpenModal] = useState(false)
+    const [openModal, setOpenModal] = useState(false);
+
+        const [supplierData, setSupplierData] = useState({ name: '' });
+ 
+        const handleInputChange = (e) => {
+          const { name, value } = e.target;
+          setSupplierData((prevData) => ({
+            ...prevData,
+            [name]: value,
+          }));
+        };
+
 
     return (
         <div className={styles.addbutton}>
@@ -15,7 +26,9 @@ export const AddSuppliersButton = ({ title }) => {
             }}
             >
                 ADD {title}</button>
-            {openModal && <AddSuppliersModal closeModal = {setOpenModal}/>}
+            {openModal && <AddSuppliersModal closeModal = {setOpenModal} 
+            supplierData={supplierData}
+            onChange={handleInputChange}/>}
         </div>
     );
 };

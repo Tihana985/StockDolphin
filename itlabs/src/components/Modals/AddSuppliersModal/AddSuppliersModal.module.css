@@ -54,6 +54,10 @@
     padding-top: 15px;
 }
 
+.label {
+    border: none;
+}
+
 
 .rectangle {
     width: 300px;

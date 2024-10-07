@@ -6,7 +6,11 @@ const suppliersSchema = new mongoose.Schema({
         type: String,
         required: [true, "The field is required."]
     },
-    address: {
+    addressText: {
+        type: String,
+        required: [true, "The  field is required."]
+    },
+    addressInput: {
         type: String,
         required: [true, "The  field is required."]
     },
@@ -14,13 +18,29 @@ const suppliersSchema = new mongoose.Schema({
         type: Number,
         required: [true, "The  field is required."]
     },
+    phoneNumber: {
+        type: Number,
+        required: [true, "The  field is required."]
+    },
+
+    emailText: {
+        type: String,
+    },
+
     email: {
         type: String, 
-        required: [true, "Password is required."],
+        required: [true, "Email is required."],
         unique: true,
         lowercase: true,
         validate: [validator.isEmail, "Please enter a valid email address."],
-    }
+    },
+
+    icon: {
+        type: String,
+      },
+      iconTwo: {
+        type: String,
+      },
 });
 
 const Suppliers = mongoose.model("Suppliers", suppliersSchema);
