@@ -22,9 +22,9 @@ function App() {
     // <FetchContextProvider>
     <div className="App">
       <Routes>
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/login/signup" element={<SignUpPage />} />
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/inventory" element={<Inventory />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/suppliers" element={<Suppliers />} />

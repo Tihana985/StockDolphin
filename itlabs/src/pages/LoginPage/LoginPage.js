@@ -47,7 +47,7 @@ export const LoginPage = () => {
                     </div>
                     <button type="submit" className={styles.btnlogin}>Log In</button>
                     {error && <p className={styles.error}>{error}</p>}
-                    <span className={styles.spanaccount}>Don't have an account? <Link to="/login/signup" label="Sign Up" className={styles.link}>Sign Up</Link> </span>
+                    <span className={styles.spanaccount}>Don't have an account? <Link to="/signup" label="Sign Up" className={styles.link}>Sign Up</Link> </span>
 
                 </form>
             </div>
