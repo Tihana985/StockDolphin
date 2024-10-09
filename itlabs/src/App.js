@@ -15,11 +15,11 @@ import { IOfficeSMouse } from './pages/IOfficeSMouse/IOfficeSMouse';
 import { InventoryThirdPage } from './pages/InventoryThirdPage/InventoryThirdPage';
 import { LoginPage } from './pages/LoginPage/LoginPage';
 import { SignUpPage } from './pages/SignUpPage/SignUpPage';
-import FetchContextProvider from "./uttils/FetchContextProvider";
+
 
 function App() {
   return (
-    // <FetchContextProvider>
+
     <div className="App">
       <Routes>
         <Route path="/" element={<LoginPage />} />
@@ -36,11 +36,8 @@ function App() {
         <Route path="/inventory/inventorythirdpage" element={<InventoryThirdPage />} />
         <Route path="/inventory/inventoryofficesupliesfirstpage" element={<InventoryOfficeSuppliesFirst />} />
         <Route path="/inventory/inventoryofficesupliesfirstpage/mouse" element={<IOfficeSMouse />} />
-
-
       </Routes>
     </div>
-    // </FetchContextProvider>
   );
 }
 
