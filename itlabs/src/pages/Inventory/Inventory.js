@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Navigation } from "../../components/Navigation/Navigation";
 import styles from "./Inventory.module.css";
 import { Header } from "../../components/Header/Header";
@@ -10,6 +11,7 @@ import { SearchCategoryInput } from "../../components/SearchCategoryInput/Seacrh
 
 export const Inventory = () => {
 
+    const [view, setView] = useState('grid')
    
     return (
         <div className={styles.inventory}>
@@ -49,13 +51,13 @@ export const Inventory = () => {
                         </div>
 
                         <div className={styles.inventoryPart}>
-                            <InventoryCards />
+                            <InventoryCards view={view} />
                         </div>
 
                     </div>
 
                     <div className={styles.rightPart}>
-                        <SideBtn />
+                        <SideBtn view={view} setView={setView} />
                     </div>
 
                 </div>

@@ -29,10 +29,10 @@ export const AddInvoiceModal = ({ closeModal }) => {
                 <div className={styles.selectOrders}>Select Orders   <hr /></div>
               
                 <div className={styles.twoBtn}>
-                    <button className={styles.btnCancel} onClick={() =>
+                    <button className={styles.cancelBtn} onClick={() =>
                         closeModal(false)}>
                         CANCEL </button>
-                    <button className={styles.btnaddCategory} onClick={() => closeModal(false)}>ADD ORDER</button>
+                    <button className={styles.savechangesBtn} onClick={() => closeModal(false)}>ADD ORDER</button>
                 </div>
             </div>
 

@@ -1,13 +1,10 @@
 import styles from "./BtnFLink.module.css";
-import { Link } from "react-router-dom";
 
-export const BtnFLink = () => {
-
+export const BtnFLink = ({ view, setView }) => {
     return (
-      
       <div className={styles.btnLink}>  
-        <Link to="/inventory/inventorysecondpage" >  <img src="\img\Control Panel.png" alt="addnew" /> </Link>
- </div> 
+        <button className={view==='grid' ? styles.btnLinkActive : ''} onClick={(e) => { e.preventDefault(); setView('grid'); }}><img src="\img\Control Panel.png" alt="addnew" /></button>
+      </div> 
     );
 };
 

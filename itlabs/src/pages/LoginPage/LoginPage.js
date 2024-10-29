@@ -42,6 +42,7 @@ export const LoginPage = () => {
                 });
 
                 let jsonData = await response.json();
+                console.log(jsonData)
                 if (response.ok) {
                     setIsSubmit(true);
                     localStorage.setItem("isSubmit", "true");
@@ -61,7 +62,7 @@ export const LoginPage = () => {
 
 
     useEffect(() => {
-        console.log(data);
+        
         const isSubmit = localStorage.getItem("isSubmit") === "true";
         const username = localStorage.getItem("username");
 

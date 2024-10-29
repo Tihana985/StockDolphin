@@ -9,11 +9,8 @@ export const AddItemButton = ({ title }) => {
 
     return (
         <div className={styles.addbutton}>
-            <img src="\img\Add New.png" alt="addnew" className={styles.imageaddcategory} />
-            <button className={styles.title} onClick={() => {
-                setOpenModal(true);
-            }}
-            >
+            <button className={styles.addItemButton} onClick={() => { setOpenModal(true); }}>
+                <img src="\img\Add New.png" alt="addnew" className={styles.imageaddcategory} />
                 ADD {title}</button>
             {openModal && <AddItemModal closeModal = {setOpenModal}/>}
         </div>

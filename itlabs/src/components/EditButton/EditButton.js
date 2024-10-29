@@ -9,14 +9,16 @@ export const EditButton = () => {
   const [ openModal, setOpenModal] = useState (false) ;
 
     return (
-        <div className={styles.editButton}>
-            <img src="/img/Edit.png" alt="pencil" />
-            <button className={styles.title} onClick={() => {
-                setOpenModal(true); 
-            }}
-            > 
-            Edit Category</button>
+        <>
+            <div className={styles.editButton}>
+                <img src="/img/Edit.png" alt="pencil" />
+                <button className={styles.title} onClick={() => {
+                    setOpenModal(true); 
+                }}
+                > 
+                Edit Category</button>
+            </div>
             {openModal && <EditCategoryModal closeModal={setOpenModal} />}
-        </div>
+        </>
     )
 }

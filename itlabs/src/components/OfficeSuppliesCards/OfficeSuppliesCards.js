@@ -1,7 +1,7 @@
 import styles from "./OfficeSuppliesCards.module.css";
 import { OsCardsBox } from "../OsCardsBox/OsCardsBox";
 
-export const OfficeSuppliesCards = () => {
+export const OfficeSuppliesCards = ({ view = 'grid' }) => {
     const Cards = [
 
         {
@@ -41,9 +41,9 @@ export const OfficeSuppliesCards = () => {
     ]
 
     return (
-        <div className={styles.cards}>
+        <div className={view === 'grid' ? styles.cards : styles.listCards}>
             {Cards.map((item) => {
-                return <OsCardsBox key={item.id} img={item.img} label={item.label} unit={item.unit} price={item.price} imgTwo={item.imgTwo} />
+                return <OsCardsBox view={view} key={item.id} img={item.img} label={item.label} unit={item.unit} price={item.price} imgTwo={item.imgTwo} />
             })}
         </div>
     )

@@ -10,8 +10,7 @@ export const GenerateInvoiceBtn =() => {
     return(
 
         <div className={styles.gnrtIBtn}>
-            <button onClick={() =>{ setOpenModal(true);
-
+            <button className={styles.generateInvoiceButton} onClick={() =>{ setOpenModal(true);
             }}> Generate Invoice</button>
             {openModal && <AddInvoiceModal closeModal={setOpenModal} />}
         </div>

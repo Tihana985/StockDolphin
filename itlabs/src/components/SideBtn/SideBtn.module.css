@@ -1,4 +1,10 @@
-.sideBtn {
-    width: 100px;
-    height: 100px; 
+.sideBtn button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+}
+
+.sideBtn .active {
+    background: #d7d7d7;
 }

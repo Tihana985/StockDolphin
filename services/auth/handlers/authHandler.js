@@ -31,9 +31,7 @@ exports.signup = async (req, res) => {
     res.status(201).json({
       status: 'success',
       token,
-      data: {
-        user: newUser,
-      },
+      username: newUser.name
     });
   } catch (err) {
     res.status(500).send(err);
@@ -71,7 +69,7 @@ exports.login = async (req, res) => {
     );
 
     // 5) pustame response
-    res.status(201).json({ status: 'success', token });
+    res.status(201).json({ status: 'success', token, username: user.name });
   } catch (err) {
     res.stats(500).send(err);
   }

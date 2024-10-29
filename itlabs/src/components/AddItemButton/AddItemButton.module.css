@@ -1,6 +1,19 @@
-.addbutton{
+.addbutton{}
+
+.imageaddcategory{
+  margin-top: 3px;
+  margin-left: 3px; 
+  margin-right: 4px; 
+}
+
+.addItemButton{
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    padding-right: 17px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    display: flex;
     background: #53A856;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -9,22 +22,10 @@
     box-shadow: 2px 2px grey;
     margin-right: 0;
     margin-top: 15px;
+    transition: all .2s ease;
 }
 
-.imageaddcategory{
-  background: #5DDB62;
-  height: 90%;
-  margin-top: 3px;
-  margin-left: 3px;  
-
-}
-
-.title{
-    color: white;
-    font-size: 12px;
-    padding-top: 8px;
-    padding-right: 17px;
-    background-color: transparent;
-    border: none;
-
+.addItemButton:hover{
+  background: #2c5f2d;
+  box-shadow: 2px 2px rgb(73, 73, 73);
 }

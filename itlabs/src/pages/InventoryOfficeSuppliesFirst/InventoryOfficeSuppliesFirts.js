@@ -7,9 +7,12 @@ import { SideBtn } from "../../components/SideBtn/SideBtn";
 import { OfficeSuppliesCards } from "../../components/OfficeSuppliesCards/OfficeSuppliesCards";
 import { EditButton } from "../../components/EditButton/EditButton";
 import { SearchCategoryInput } from "../../components/SearchCategoryInput/SeacrhCategoryInput";
+import { useState } from "react";
 
 
 export const InventoryOfficeSuppliesFirst = () => {
+
+    const [view, setView] = useState('grid')
 
     return (
         <div className={styles.inventoryOfficeSuppliesFirst}>
@@ -31,11 +34,11 @@ export const InventoryOfficeSuppliesFirst = () => {
                 <div className={styles.twoParts}> 
 
                 <div className={styles.cardsPart}>
-                    <OfficeSuppliesCards />
+                    <OfficeSuppliesCards view={view} />
                 </div>
 
                 <div className={styles.rightPart}>
-                    <SideBtn />
+                    <SideBtn view={view} setView={setView} />
                 </div>
                 </div>
                

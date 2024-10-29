@@ -1,12 +1,9 @@
 import styles from "./BtnList.module.css";
-import { Link } from "react-router-dom";
 
-export const BtnList = () => {
-
+export const BtnList = ({ view, setView }) => {
     return (
-      
         <div className={styles.btnList}> 
-        <Link to="/inventory/inventorythirdpage"> <img src="\img\List.png" alt="addnew" /></Link>
- </div> 
+            <button className={view==='list' ? styles.btnListActive : ''} onClick={(e) => { e.preventDefault(); setView('list'); }}> <img src="\img\List.png" alt="addnew" /></button>
+        </div> 
     );
 }; 

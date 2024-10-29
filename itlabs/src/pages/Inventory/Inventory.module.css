@@ -13,12 +13,9 @@
 /* Vtor del  */
 
 .secondPart {
-  /* background-color: red; */
   margin-top: 20px;
-  margin-left: 50px;
   height: 500px;
   display: flex;
-  width: 1010px;
   justify-content: space-between;
 }
 
@@ -52,7 +49,6 @@
 /* Dve kopcinja od strana */
 
 .rightPart {
-  width: 100px;
   display: flex;
 
 }

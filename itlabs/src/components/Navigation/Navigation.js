@@ -1,5 +1,5 @@
 import { Logo } from "../Logo/Logo";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 import styles from "./Navigation.module.css";
 
 import { NavItem } from "./NavItem";
@@ -29,6 +29,8 @@ const menuItems = [
 
 export const Navigation = () => {
 
+    const navigate = useNavigate()
+
     return (
         <nav className={styles.nav}>
 
@@ -42,7 +44,12 @@ export const Navigation = () => {
             </div>
 
             <div>
-                <NavItem label="Sign Out" routeName="/signout" icon="Shutdown.png" />
+                <button onClick={() => {
+                    localStorage.removeItem('token')
+                    localStorage.removeItem('username')
+                    localStorage.removeItem('isSubmit')
+                    navigate("/")
+                }}>Sign Out</button>
             </div>
 
         </nav>

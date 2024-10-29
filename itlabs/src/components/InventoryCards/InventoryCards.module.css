@@ -3,5 +3,8 @@
     display: flex;
     justify-content: space-between;
     border-radius: 0.5rem;
+}
 
+.icardsList{
+    width: 700px;
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 
 
-export const InventoryCards = () => {
+export const InventoryCards = ({ view = "grid" }) => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
@@ -96,9 +96,9 @@ export const InventoryCards = () => {
 
     return (
        
-            <div className={styles.icardsRow}>
+            <div className={view === 'grid' ? styles.icardsRow : styles.icardsList}>
                 {categories.map((item) => {
-                    return <ICardsBox key={item.id} iconfirst={item.image} iconsecond={item.iconsecond} iconthird={item.iconthird} label={item.title} unit={item.unit} price={item.price}  
+                    return <ICardsBox view={view} key={item.id} iconfirst={item.image} iconsecond={item.iconsecond} iconthird={item.iconthird} label={item.title} unit={item.unit} price={item.price}  
                     update={item.update} date={item.date} time={item.time} icon={item.icon} />
                 }) }
               </div>

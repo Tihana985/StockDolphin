@@ -3,13 +3,12 @@ import { BtnFLink } from "../BtnFLink/BtnFLink";
 import { BtnList } from "../BtnList/BtnList";
 
 
-export const SideBtn = () => {
+export const SideBtn = ({ view, setView }) => {
 
     return (
         <div className={styles.sideBtn}>
-            <BtnFLink />       
-            <BtnList />
-
+            <BtnFLink view={view} setView={setView} />       
+            <BtnList view={view} setView={setView} />
         </div>
     )
 }

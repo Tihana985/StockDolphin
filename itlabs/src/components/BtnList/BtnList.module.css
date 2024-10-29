@@ -3,3 +3,7 @@
     display: flex;
     justify-content: center;
 }
+
+.btnListActive{
+    background: #c7c7c7 !important;
+}

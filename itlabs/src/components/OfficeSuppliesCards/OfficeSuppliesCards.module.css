@@ -1,7 +1,10 @@
 .cards{
-display:flex;
-justify-content: space-between;
-width:880px;
-height: 400px;
+    display:flex;
+    justify-content: space-between;
+    width:880px;
+    height: 400px;
+}
+
+.listCards{
     
 }
