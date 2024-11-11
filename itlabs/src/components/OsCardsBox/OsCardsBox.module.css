@@ -2,7 +2,7 @@
     display: flex;
     background-color: white;
     width: 160px;
-    height: 170px;
+    height: 180px;
     flex-direction: column;
     border-radius: 0.5rem;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.399);
@@ -12,43 +12,140 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    width: 660px;
+    height: 90px;
     border-radius: 0.5rem;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.399);
     margin-bottom: 1rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
-.img {
+
+.OsCardsListBox .img {
     width: 160px;
-    height: 85px;
+    height: 90px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.OsCardsListBox .labelAndTwoPartsWrapper {
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.OsCardsListBox .label {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+
+.OsCardsListBox .twoParts {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    height: 15px;
+    font-size: 10px;
+}
+
+
+.OsCardsListBox .unit {
+    padding-left: 10px;
+}
+
+
+.OsCardsListBox .price {
+    padding-right: 22px;
+
+}
+
+.mouse {
+    text-decoration: none;
+    color: black;
+}
+
+.OsCardsListBox .thirdPart {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 100%;
+    width: 160px;
+    margin-top: 10px;
+}
+
+.OsCardsListBox .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.OsCardsListBox .update {
+    font-size: 13px;
+    color: rgb(103, 95, 95);
+
+}
+
+.OsCardsListBox .timeandDate {
+    font-size: 10px;
+
+}
+
+.OsCardsListBox .imgTwo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-left: 120px;
+
+}
+
+/* styles.OsCardsBox : styles.OsCardsListBox  */
+
+
+.OsCardsBox .img {
+    width: 160px;
+    height: 90px;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
 
-.label {
-    font-size: 15px;
+.OsCardsBox .labelAndTwoPartsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.OsCardsBox .label {
+    font-size: 17px;
     margin-left: 10px;
 }
 
-.twoParts {
+
+.OsCardsBox .twoParts {
     display: flex;
     justify-content: space-between;
-    width: 160px;
+    width: 140px;
     height: 15px;
     font-size: 9px;
-
+    margin-left: 10px;
 }
 
-.unit {
-    padding-left: 10px;
-}
 
-.price {
-    padding-right: 8px;
-
-}
-
-.imgTwo {
+.OsCardsBox.imgTwo {
     width: 30px;
     height: 30px;
     display: flex;
@@ -57,8 +154,42 @@
     margin-left: 120px;
     margin-top: 5px;
 }
-.mouse{
+
+.mouse {
     text-decoration: none;
     color: black;
 }
 
+.OsCardsBox .thirdPart {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 50px;
+}
+
+.OsCardsBox .two {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+
+}
+
+
+.OsCardsBox .update {
+    font-size: 10px;
+    color: rgb(103, 95, 95);
+}
+
+.OsCardsBox .timeandDate {
+    font-size: 10px;
+}
+
+.OsCardsBox .imgTwo {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
