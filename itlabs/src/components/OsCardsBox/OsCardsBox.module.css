@@ -29,7 +29,7 @@
 }
 
 .OsCardsListBox .labelAndTwoPartsWrapper {
-    border-right: 1px solid black;
+  
     display: flex;
     flex-direction: column;
     height: 90px;
@@ -76,9 +76,12 @@
     align-items: center;
     justify-content: center;
     padding-top: 10px;
-    height: 100%;
+    height: 90px;
     width: 160px;
-    margin-top: 10px;
+    box-sizing: border-box;
+    height: 90px;
+    width: 160px;
+    border-left: 1px solid black;
 }
 
 .OsCardsListBox .two {
@@ -165,6 +168,7 @@
     justify-content: space-between;
     width: 160px;
     height: 50px;
+
 }
 
 .OsCardsBox .two {
