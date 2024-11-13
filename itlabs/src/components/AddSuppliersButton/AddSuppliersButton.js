@@ -20,11 +20,10 @@ export const AddSuppliersButton = ({ title }) => {
 
     return (
         <div className={styles.addbutton}>
-            <img src="\img\Add New.png" alt="addnew" className={styles.imageaddcategory} />
-            <button className={styles.title} onClick={() => {
+            <button className={styles.btn} onClick={() => {
                 setOpenModal(true);
             }}
-            >
+            > <img src="\img\Add New.png" alt="addnew" className={styles.imageaddcategory} />
                 ADD {title}</button>
             {openModal && <AddSuppliersModal closeModal = {setOpenModal} 
             supplierData={supplierData}
