@@ -44,12 +44,12 @@ export const Navigation = () => {
             </div>
 
             <div>
-                <button onClick={() => {
+                <button className={styles.btnSignOut} onClick={() => {
                     localStorage.removeItem('token')
                     localStorage.removeItem('username')
                     localStorage.removeItem('isSubmit')
                     navigate("/")
-                }}>Sign Out</button>
+                }}><img src="/img/icons/navigation/Shutdown.png" alt="shutdown" className={styles.imgSignOut}/>Sign Out</button>
             </div>
 
         </nav>
