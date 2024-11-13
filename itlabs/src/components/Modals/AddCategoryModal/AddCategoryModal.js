@@ -10,7 +10,6 @@ export const AddCategoryModal = ({ closeModal }) => {
     return (
 
         <div className={styles.addcategoryModal}>
-
             <div className={styles.modalForm}>
                 <header className={styles.header}>
                     <HeaderModal text="CATEGORY" />

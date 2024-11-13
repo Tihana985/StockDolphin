@@ -29,3 +29,8 @@
     display: flex; 
     padding-right: 14px;
 }
+
+.editButton:hover {
+    background: #2c5f2d;
+    box-shadow: 2px 2px rgb(73, 73, 73);
+  }

@@ -8,7 +8,7 @@ export const AddButton = ({ title }) => {
     const [openModal, setOpenModal] = useState(false);
 
     return (
-        <div className={styles.addbutton}> 
+        <div className={styles.addbutton}>
             <button className={styles.btn} onClick={() => {
                 setOpenModal(true);
             }}
