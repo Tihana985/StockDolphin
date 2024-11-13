@@ -26,23 +26,22 @@ export const ICardsBox = ({view = "grid", iconfirst, iconsecond, iconthird, labe
                    <div className={styles.price}> {price} </div>
                </div>
            )}
-        </div>
+        
         { view === 'grid' && (
             <div className={styles.unitPrice}>
                 <div className={styles.unit}> {unit} </div>
                 <div className={styles.price}> {price} </div>
             </div>
         )}
-       
+       </div>
         <div className={styles.thirdPart}>
-            <div className={styles.update}> {update} </div>
-            
+            <div className={styles.update}> {update} </div>    
             <div className={styles.dateTime}>
             <div className={styles.date}> {date} </div>
             <div className={styles.time}> {time} </div> 
             </div>
 
-            <img src={icon} className={view === 'grid' ? styles.icon : styles.iconList} alt="icontrash"/> 
+            <img src={icon} className={view === 'grid' ? styles.icon : styles.iconList} alt="icontrash" /> 
             </div>
         </div>
         

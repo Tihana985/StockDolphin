@@ -1,34 +1,41 @@
-.icardsBox{
-    display:flex;
+/* styles.icardsBox : styles.icardsListBox} */
+
+.icardsBox {
+    display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
     width: 160px;
     height: 180px;
     background: white;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.399);
-    position: relative; 
+    position: relative;
     overflow: hidden;
 }
 
-.icardsListBox{
+.icardsListBox {
     background: white;
     margin-bottom: 1rem;
     display: flex;
+    width: 680px;
+    height: 80px;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.399);
+    border-radius: 0.5rem;
 }
 
-.threeImages{
+.icardsBox .threeImages {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 160px;
     height: 80px;
     border-radius: 0.5rem;
-   
+
 
 }
-.iconfirst{
+
+.icardsBox .iconfirst {
 
     justify-content: flex-start;
     width: 80px;
@@ -36,83 +43,215 @@
 
 }
 
-.twoIcons{
+.icardsBox .twoIcons {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  
+    justify-content: space-between;
     border-top-right-radius: 0.5rem;
     width: 80px;
     height: 80px;
 
 }
 
-.iconsecond{
-    width:80px;
+.icardsBox .iconsecond {
+    width: 80px;
     height: 45px;
     border-top-right-radius: 0.5rem;
 }
 
-.iconthird{
-    width:80px;
+.icardsBox .iconthird {
+    width: 80px;
     height: 45px;
     padding-bottom: 10px;
-    
+
 }
 
-.secondPart{
+.icardsBox .secondPart {
     margin-top: 5px;
     padding-left: 10px;
-  
 }
 
-.label{
+.icardsBox .label {
     display: flex;
     justify-content: space-between;
-   font-size: 14px;
-    
-    
- 
+    font-size: 14px;
+
+
+
 }
-.link{ 
+
+.link {
     text-decoration: none;
     color: black;
 }
 
-.unitPrice {
+.icardsBox .unitPrice {
     display: flex;
-    justify-content:space-around;
-    padding-right: 20px;
+    justify-content: space-around;
+    padding-right: 50px;
     font-size: 12px;
-  }
+}
 
-  .thirdPart{
+.thirdPart {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .update{
+.icardsBox .update {
     font-size: 12px;
     padding-left: 10px;
 }
 
-.dateTime{
+.icardsBox .dateTime {
     display: flex;
     justify-content: space-evenly;
     padding-left: 10px;
-    width:100px;
+    width: 100px;
     font-size: 10px;
+
+}
+
+.icardsBox .icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 35px;
+
+}
+
+.icardsBox .iconList {
+    position: relative;
+    width: 35px;
+}
+
+/* IcardslistBox */
+
+
+
+.icardsListBox .threeImages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 80px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.icardsListBox .iconfirst {
+
+    justify-content: flex-start;
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 0.5rem;
+
+
+}
+
+
+.icardsListBox .twoIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+.icardsListBox .iconsecond {
+    width: 80px;
+    height: 45px;
+
+}
+
+.icardsListBox .iconthird {
+    width: 80px;
+    height: 45px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.icardsListBox .secondPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 380px;
+    height: 80px;
+    margin-left: 12px;
+}
+
+.icardsListBox .label {
+    font-size: 17px;
   
 }
 
-.icon{
-    position: absolute; 
-    bottom: 5px; 
-    right: 5px; 
-    width: 35px;
+.icardsListBox .unitPrice {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-right: 25px;
+}
+
+.icardsListBox .link {
+    text-decoration: none;
+    color: black;
+}
+
+.icardsListBox .unitPrice {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.icardsListBox .thirdPart {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    width: 140px;
+    height: 80px;
+    /* justify-content: space-evenly; */
+
+}
+
+.icardsListBox .update {
+    font-size: 12px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 18px;
+    color:rgb(90, 86, 86);
+    height: 60px;
   
-}  
- 
-.iconList{
+}
+
+.icardsListBox .dateTime {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 8px;
+    margin-left: 10px;
+
+}
+
+
+.icardsListBox .iconList {
     position: relative;
-    width: 35px;
+    width: 30px;
+    margin-left: 100px;
+    margin-bottom: 3px;
+  
+}
+
+.icardsListBox .icon {
+    position: absolute;
+    bottom: 5px;
+    width: 30px;
+   
+
+
 }
