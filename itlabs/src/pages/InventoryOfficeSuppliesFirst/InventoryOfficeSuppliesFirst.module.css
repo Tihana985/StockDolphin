@@ -6,9 +6,9 @@
   padding-left: 350px;
 }
 
-.titleTwo{
+.titleTwo {
   display: flex;
-  width:550px;
+  width: 550px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -16,7 +16,7 @@
 
 }
 
-.arrow{
+.arrow {
   width: 30px;
   height: 30px;
   display: flex;
@@ -25,33 +25,33 @@
   padding-top: 5px;
 }
 
-.text{
+.text {
   font-size: 28px;
   color: rgb(56, 53, 53);
   font-weight: 600;
-  width:400px;
+  width: 400px;
 }
 
-.twoBtn{
+.twoBtn {
   display: flex;
   justify-content: space-between;
 }
+
 /* Dolen del -karticki kopcinja */
-.twoParts{
+.twoParts {
   display: flex;
   justify-content: space-between;
 }
 
-.cardsPart{
+.cardsPart {
   display: flex;
   width: 800px;
-  height:400px;
+  height: 400px;
   margin-top: 50px;
   margin-left: 50px;
 }
 
-.rightPart{
-  margin-top: 20px;
-  width: 160px;
+.rightPart {
   display: flex;
+  margin-top: 20px;
 }
