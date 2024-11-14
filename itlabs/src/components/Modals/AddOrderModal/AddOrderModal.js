@@ -23,23 +23,23 @@ export const AddOrderModal = ({ closeModal }) => {
                                 <label>Total Price *</label>
                                 <hr />
                             </div>
-                            </div>
-                            </div>
-                            </div>
-                            <div className={styles.buttonCalendar}>
-                                <button> <img src="/img/Calendar.png" alt="calendar" /> DD/MM/YY* </button>
-                            </div>
-                           
-                        
-            
-                        <div className={styles.twoBtn}>
-                            <button className={styles.btnCancel} onClick={() =>
-                                closeModal(false)}>
-                                CANCEL </button>
-                            {/* {openModal && <DiscardModal closeModal={setOpenModal} />} */}
-                            <button className={styles.btnaddCategory} onClick={() => closeModal(false)}>ADD ORDER</button>
                         </div>
-                    </div>         
+                    </div>
+                </div>
+                <div className={styles.buttonCalendar}>
+                    <button> <img src="/img/Calendar.png" alt="calendar" /> DD/MM/YY* </button>
+                </div>
+
+
+
+                <div className={styles.twoBtn}>
+                    <button className={styles.btnCancel} onClick={() =>
+                        closeModal(false)}>
+                        CANCEL </button>
+                    {/* {openModal && <DiscardModal closeModal={setOpenModal} />} */}
+                    <button className={styles.btnaddCategory} onClick={() => closeModal(false)}>ADD ORDER</button>
+                </div>
+            </div>
         </div>
     )
 }
