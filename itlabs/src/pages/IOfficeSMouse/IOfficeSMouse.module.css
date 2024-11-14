@@ -14,7 +14,6 @@
 
 
 .titleSecond {
-    font-size: 28px;
     color: #3E4153;
     width: 1050px;
     display: flex;
@@ -24,7 +23,11 @@
     padding-top: 5px;
     color: rgb(56, 53, 53);
     font-weight: 600;
+}
 
+.text {
+    font-size: 28px;
+    color: #3E4153;
 }
 
 .titleTwo {
@@ -32,8 +35,11 @@
     color: #3E4153;
     display: flex;
     justify-content: left;
+}
 
-    /* background-color: green; */
+.textTwo {
+    font-size: 28px;
+    color: #3E4153;
 }
 
 
@@ -73,13 +79,13 @@
 /* Vtor del */
 
 .twoParts {
-    display:flex;
-    width:100%;
+    display: flex;
+    width: 100%;
     height: 500px;
 }
 
 .leftPart {
-    width:70%;
+    width: 70%;
 }
 
 .topicAndButton {
@@ -88,7 +94,8 @@
     border-bottom: 1px solid black;
 
 }
-.topicAndButton span{
+
+.topicAndButton span {
     font-size: 28px;
     color: #3E4153;
     font-weight: 600;
@@ -99,29 +106,29 @@
     height: 90%;
     background-color: white;
     margin-top: 10px;
-    border-radius: 5px ;
+    border-radius: 5px;
     box-shadow: 2px 2px 5px rgb(92, 88, 88);
-   
+
 }
 
-.labelAndButton{ 
+.labelAndButton {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.label{
+.label {
 
-    width:90%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:15px;
-    
-    
+    padding-left: 15px;
+
+
 }
 
-.labelAndButton button{
+.labelAndButton button {
     width: 5%;
     border: none;
     background-color: white;
@@ -129,28 +136,27 @@
     padding-top: 3px;
 }
 
-.sumBox hr{
+.sumBox hr {
     width: 97%;
 }
+
 .rightPart {
-    width:30%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     padding-top: 45px;
     align-items: center;
     margin-left: 20px;
     padding-left: 50px;
-   
-
 }
 
-.rightPart img{
+.rightPart img {
     height: 180px;
     border-radius: 5px;
     width: 280px;
 }
 
-.rightPart span{
+.rightPart span {
     height: 50px;
     width: 280px;
     border-radius: 5px;
@@ -161,8 +167,8 @@
     padding-left: 5px;
 }
 
-.btns{
-    width:280px;
+.btns {
+    width: 280px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -170,25 +176,28 @@
     margin-top: 110px;
 }
 
-.imgBtn{
-    width:60px;
+.imgBtn {
+    width: 60px;
     height: 40px;
     border: none;
     background-color: transparent;
-    
 }
 
-
 .imgBtn img {
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain; 
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     background-color: #53A856;
     box-shadow: 2px 2px 5px rgb(92, 88, 88);
 }
 
-.btnSave{
-    width:130px;
+.imgBtn img:hover {
+    background: #2c5f2d;
+    box-shadow: 2px 2px rgb(73, 73, 73);
+}
+
+.btnSave {
+    width: 130px;
     height: 40px;
     background-color: #53A856;
     color: white;

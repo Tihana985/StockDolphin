@@ -1,4 +1,4 @@
-.addImodal{
+.addImodal {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(10px);
@@ -9,10 +9,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999; 
+    z-index: 9999;
 }
 
-.modalForm{
+.modalForm {
     width: 300px;
     height: 350px;
     background-color: white;
@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-.header{
+.header {
     display: flex;
     width: 300px;
     height: 60px;
@@ -33,19 +33,18 @@
     border-top-right-radius: 5px;
 }
 
-.header label{
-
-    color:white;
+.header label {
+    color: white;
     padding-left: 10px;
 }
 
-.btnX{
+.btnX {
     background-color: transparent;
-    border:none ;
- 
+    border: none;
+
 }
 
-.centralPart{
+.centralPart {
     width: 300px;
     height: 100px;
     display: flex;
@@ -54,95 +53,129 @@
 }
 
 
-.name label{
+.label {
     width: 300px;
     height: 80px;
     padding-left: 15px;
-    padding-top: 15px;   
+    padding-top: 15px;
 }
 
-
-.name hr{
-    width:280px;
+.name{
+    padding-top: 5px;
 }
-.supplier{
-    height: 80px;
-
+.hr {
+    width: 280px;
 }
-.supplier label{
+
+.supplier {
+    height: 90px;
+ 
+}
+
+.supplierlabel {
+
     width: 300px;
     height: 80px;
     padding-left: 15px;
-    padding-top: 15px;  
+    padding-top: 15px;
 }
 
-.supplier hr{
-    width:280px;
+.supplierhr {
+    width: 280px;
 
 }
 
-.rectangle{
-    width: 300px;
-    height: 190px;
+.labelTwo{
+    margin-left: 15px;
+}
+
+.twoParts{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-    padding-left: 15px;
 }
 
-.img{
-    height: 150px;
-    width:200px;
+.img {
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
+    margin-left: 5px;
 }
 
-.selectOrders{
+
+.selectOrders {
     width: 300px;
     height: 80px;
     padding-left: 15px;
-    padding-top: 15px;  
- }
+    padding-top: 15px;
+}
 
- .selectOrders hr{
-width: 280px;
+.selectOrders hr {
+    width: 280px;
+}
 
- }
-.twoBtn{
+.buttonCalendar {
+    width: 150px;
+    margin-left: 15px;
+  
+}
+
+.btnCalendar {
+    border: none;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.calendarImg {
+    border: none;
+    background-color: transparent;
+
+}
+
+.hrselectOrders{
+    width: 280px;
+}
+
+.twoBtn {
     width: 300px;
     height: 110px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: 1px solid black;
 }
 
-.cancelBtn{ 
-    width:110px;
+.cancelBtn {
+    width: 110px;
     height: 30px;
-    background-color:#c1c1c1;
+    background-color: #c1c1c1;
     display: flex;
     justify-content: center;
     align-items: center;
-    border:none;
+    border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgb(134, 127, 127);
     font-size: 12px;
     color: black;
 }
- .savechangesBtn{
-    width:110px;
+
+.savechangesBtn {
+    width: 110px;
     height: 30px;
     background-color: #53A856;
     display: flex;
     justify-content: center;
     align-items: center;
-    border:none;
+    border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgb(134, 127, 127);
     font-size: 12px;
     color: white;
 }
 
-.imgX{
+.imgX {
     border: none;
     background-color: transparent;
-} 
+}
