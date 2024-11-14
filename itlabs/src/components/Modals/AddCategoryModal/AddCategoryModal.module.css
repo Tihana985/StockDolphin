@@ -30,6 +30,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #53A856;
+    font-size: 15px;
 }
 
 .buttonX {
@@ -54,7 +55,10 @@
     padding-top: 15px;
 }
 
-.label {}
+.label {
+    color:black;
+    font-size: 14px;
+}
 
 .rectangle {
     width: 300px;
