@@ -27,7 +27,7 @@ export const Dashboard = () => {
                 <Header title="Dashboard">
                     <div className={styles.userpart}>
                         Welcome back {username}!
-                        <img src="\img\User.png" alt="user" />
+                        <img src="\img\User.png" alt="user" className={styles.imgHeader} />
                     </div>
                 </Header>
 
