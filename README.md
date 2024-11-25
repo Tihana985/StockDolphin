@@ -22,3 +22,6 @@ NodeJS, ExpressJS, MongoDB.
 
 ## Login Page
 ![Login Page](https://github.com/user-attachments/assets/6e3a9d6c-9070-4985-9d03-19ea54297263)
+
+## SignUp Page
+![SignUp Page img](https://github.com/user-attachments/assets/eb3791a9-a170-4db3-b567-76697c32dbb7)
