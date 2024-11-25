@@ -56,3 +56,7 @@ NodeJS, ExpressJS, MongoDB.
 ## Suppliers Search
 ![Supplier Search img](https://github.com/user-attachments/assets/0915d0bf-4c94-4893-998a-643e6d7a257d)
 
+## Add Supplier Modal
+![Add Supplier Modal img](https://github.com/user-attachments/assets/138fbc6f-41a5-4d23-a3c4-5f5154a718fa)
+
+
