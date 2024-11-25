@@ -25,3 +25,15 @@ NodeJS, ExpressJS, MongoDB.
 
 ## SignUp Page
 ![SignUp Page img](https://github.com/user-attachments/assets/eb3791a9-a170-4db3-b567-76697c32dbb7)
+
+## Dashboard Page
+![Dashboard Page img](https://github.com/user-attachments/assets/752555bc-6e63-4c2a-adc0-b2e6e95c1ded)
+
+## Inventory Page  
+![Inventory Page img](https://github.com/user-attachments/assets/fd9c7d15-8eba-4f2e-b706-c3add36478f9)
+
+## Inventory Office Supplies Page
+![Invetory Office Supplies Orders img](https://github.com/user-attachments/assets/98346a77-f5b0-4bd0-bb75-feadd8c9ec04)
+
+##
+
