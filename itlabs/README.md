@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Project Name: Itlabs Stock Dolphin
+
+Welcome to **ITLabs Stock Dolphin**, a React-based application designed for managing stock information efficiently and intuitively.
+
+## Features
+- User-friendly interface for managing stock records.
+- Interactive visualizations for stock performance.
+- Role-based access control for different user types.
