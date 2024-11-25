@@ -13,3 +13,7 @@ Some offices supply management process is inefficient and costly, leading to exc
 - API Endpoints (CRUD operations);
 - Frontend Components (ReactJS);
 - Backend NodeJS.
+
+### Technologies Used
+HTML, CSS, JavaScript, ReactJS;
+NodeJS, ExpressJS, MongoDB.
