@@ -32,8 +32,24 @@ NodeJS, ExpressJS, MongoDB.
 ## Inventory Page  
 ![Inventory Page img](https://github.com/user-attachments/assets/fd9c7d15-8eba-4f2e-b706-c3add36478f9)
 
+## Inventory List View
+![Iventory List view img](https://github.com/user-attachments/assets/c4c630b3-ba68-4653-a9e6-41fec9953815)
+
 ## Inventory Office Supplies Page
 ![Invetory Office Supplies Orders img](https://github.com/user-attachments/assets/98346a77-f5b0-4bd0-bb75-feadd8c9ec04)
 
-##
+## Add Order Modal
+![Add Order Modal img](https://github.com/user-attachments/assets/c11a89b6-52eb-4ec1-b2be-997854812b03)
+
+## Disard Modal 
+![Discard Modal img](https://github.com/user-attachments/assets/4aaf5713-2d95-4258-9243-5d83bbba5c5f)
+
+## Reports Page
+![Reports Page img](https://github.com/user-attachments/assets/073bc206-19af-4982-a00c-bc105bd84c0e)
+
+## Suppliers Page
+![Supplier Page img](https://github.com/user-attachments/assets/9f04795b-135f-4f5e-90e3-95a7f2d616c8)
+
+## Suppliers Search
+![Supplier Search img](https://github.com/user-attachments/assets/0915d0bf-4c94-4893-998a-643e6d7a257d)
 
