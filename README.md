@@ -35,6 +35,9 @@ NodeJS, ExpressJS, MongoDB.
 ## Inventory List View
 ![Iventory List view img](https://github.com/user-attachments/assets/c4c630b3-ba68-4653-a9e6-41fec9953815)
 
+## Add Item Modal 
+![Add Item img](https://github.com/user-attachments/assets/a3fbbb1a-5384-48ba-b551-51d95669316b)
+
 ## Inventory Office Supplies Page
 ![Invetory Office Supplies Orders img](https://github.com/user-attachments/assets/98346a77-f5b0-4bd0-bb75-feadd8c9ec04)
 
