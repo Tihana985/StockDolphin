@@ -86,3 +86,53 @@
     color: #53A856;
 
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+    .container {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form .email,
+    .form .password,
+    .form .confirmpassword {
+        width: 90%;
+    }
+
+    .span {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .btnsubmit {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .span {
+        width: 80%;
+        height:auto;
+    }
+}

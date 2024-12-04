@@ -1,7 +1,6 @@
 import { Logo } from "../Logo/Logo";
 import { useNavigate } from "react-router-dom"
 import styles from "./Navigation.module.css";
-
 import { NavItem } from "./NavItem";
 
 const menuItems = [
@@ -37,9 +36,9 @@ export const Navigation = () => {
             <div>
                 <Logo />
                 <ul>
-                    { menuItems.map((menuItem, index) => {
+                    {menuItems.map((menuItem, index) => {
                         return <li><NavItem key={index} label={menuItem.label} routeName={menuItem.routeName} icon={menuItem.icon} /></li>
-                    }) }
+                    })}
                 </ul>
             </div>
 
@@ -49,7 +48,7 @@ export const Navigation = () => {
                     localStorage.removeItem('username')
                     localStorage.removeItem('isSubmit')
                     navigate("/")
-                }}><img src="/img/icons/navigation/Shutdown.png" alt="shutdown" className={styles.imgSignOut}/>Sign Out</button>
+                }}><img src="/img/icons/navigation/Shutdown.png" alt="shutdown" className={styles.imgSignOut} />Sign Out</button>
             </div>
 
         </nav>

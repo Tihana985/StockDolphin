@@ -94,5 +94,87 @@
 
 .spantwo {
     color: #53A856;
+}
 
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+    .container {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .form {
+        width: 30%;
+    }
+
+    .emailinput input{
+        width: auto;
+    }
+  
+    .passwordinput input{
+        width: auto;
+    }
+
+    .spanaccount{
+        width: 100%;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .link{
+        margin-top: 5px;
+    }
+    .span {
+        padding-top: 20px;
+        width: auto;
+        font-size: 15px;
+    }
+    .spantwo{
+        width: auto;
+        font-size: 13px;
+    }
+
+    .link{
+        width: auto;
+    }
+
+    .spanaccount{
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .container {
+        width: 30%;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .form {
+        width: 30%;
+    }
+
+    .form .email,
+    .form .password,
+    .form .confirmpassword {
+        width: 30%;
+    }
+    .btnsubmit {
+        width: 50px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .span {
+        width: 30%;
+    }
 }
